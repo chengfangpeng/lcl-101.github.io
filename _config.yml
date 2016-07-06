@@ -1,11 +1,11 @@
 # Site settings
-title: X_ray Blog
-SEOTitle: 成芳鹏的博客　| X_ray Blog
+title: LCL Blog
+SEOTitle: 李成龙博客　| X_ray Blog
 header-img: img/home-bg.jpg
-email: chengfangpeng00@gmail.com
+email: 554675188@qq.com
 description: "我是一个coder,但是我爱物理。"
 keyword: ""
-url: "http://huangxuan.me"              # your host, for absolute URL
+url: "lcl.itmadman.cn"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
