@@ -1,0 +1,32 @@
+---
+layout:     post
+title:      "2016年书单"
+subtitle:   " \"2016年书单\""
+date:       2016-03-23 12:00:00
+author:     "X-ray"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 生活
+---
+
+## 读完
+
+
+
+- [Pro-Git](https://git-scm.com/book/zh/v2) 作者是github的创始人
+
+- [协议森林](http://www.cnblogs.com/vamei/archive/2012/12/05/2802811.html)用很直白但却很形象的文字帮助读者了解网络协议，读过这一系列文章后，你可以找到参考书籍，继续深入学习。
+
+- [Python快速教程](http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html) 文中代码主要基于python2.7.
+
+## 在读
+
+- [TCP/IP详解　卷一：协议](https://book.douban.com/subject/1088054/) 不多说了该领域的经典
+
+- [App研发录](https://book.douban.com/subject/26649050/) 进阶必备
+
+- [Android开发艺术探索](https://book.douban.com/subject/26599538/) 侧重于Android知识的体系化和体统工作机制的分析。
+
+- [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)　　步入大神的行列
+
+## 想读

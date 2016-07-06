@@ -1,0 +1,54 @@
+---
+layout:     post
+title:      "Ubuntu截图工具"
+subtitle:   " \"Ubuntu截图工具\""
+date:       2016-01-10 12:00:00
+author:     "X-ray"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Ubuntu
+---
+
+
+使用Ubuntu已近有一段时间了,但是有时候工作中需要截图，之前用的是win qq的截图，但是大家都懂得，qq在Ubuntu 体验差的要死，还是多年以前的版本。实在不是很方便。于是就找了一下Ubuntu上好的截图方法
+	方法一：其实Ubuntu是自带截图工具的（注：我用的是Ubuntu 14.04）在／usr/share/applications 中可以看到一个类似于照相机图标的应用
+
+
+![Screenshot](http://img.blog.csdn.net/20160107133254164)
+
+
+打开之后出现一个窗口你可以选择截取整个屏幕，或者是一个窗口，再或者某个区域，当然系统默认有使用Sreenshot的快捷键　分别为PrtSc, Alt + PrtSc, Shift + PrtSc但是系统自带的没有编辑图片的功能，比如你想模糊一些私密信息，加一些备注，系统的Screenshot就无能为力了。
+方法二：Shutter
+Shutter是一个第三方的截图软件需要我们手动的安装，方法很简单：
+	
+	
+	
+
+```
+sudo apt-get install shutter
+```
+
+安装完之后在终端中输入
+
+```
+cfp@cfp:~$ shutter -s
+```
+就可以像qq那样截图了
+当然了shutter 配置了对图片的编辑功能，可以添加备注等等，非常的强大，具体安装后自己体验一下。
+
+
+另外就是像使用qq的截图功能一样，添加一个快捷键　Ctrl + Alt +A
+
+具体步骤：
+1. 打开系统设置
+2. 打开 Keyboard 键盘设置
+3. 选择快捷键
+4. 自定义快捷键
+5. 添加快捷键
+6. 编辑快捷键名称和打开命令
+7. 右键设置快捷键　Ctrl + Alt +A
+
+![步骤](http://img.blog.csdn.net/20160107104536475)
+
+
+好，这样在Ubuntu上也可以噬无忌惮的截图了！

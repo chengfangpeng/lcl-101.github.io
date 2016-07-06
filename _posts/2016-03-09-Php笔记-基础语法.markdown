@@ -1,0 +1,287 @@
+---
+layout:     post
+title:      "Php笔记-基础语法"
+subtitle:   " \"Php基础语法\""
+date:       2016-03-09 12:00:00
+author:     "X-ray"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Php
+---
+
+
+## 变量 ##
+php 的变量必须用$开头
+
+```
+$myAge
+```
+
+switch语法
+--------
+switch有两种语法：
+
+- 正常的语法：
+
+```
+<?php
+        $myAge = 25;
+        switch($myAge){
+            case 20:
+                print "your are age is 20";
+                break;
+            case 24:
+                print "your are age is 24";
+                break;
+            case 25:
+                print "your are age is 25";
+                break;
+            default:
+                print "your are age is not match";
+                break;
+      
+        }
+```
+
+ - sugar语法：
+  
+
+```
+<?php
+        $myAge = 25;
+        switch($myAge):
+            case 20:
+                print "your are age is 20";
+                break;
+            case 24:
+                print "your are age is 24";
+                break;
+            case 25:
+                print "your are age is 25";
+                break;
+            default:
+                print "your are age is not match";
+                break;
+        endswitch;
+    ?>
+```
+
+## 数组 ##
+
+```
+ $array = array("cheng", "fang", "peng");
+```
+#### 获取数组的值有两种方法
+
+ - 通过[]
+
+```
+	$array[2]；
+```
+
+ - 通过{}
+
+```
+ $array{2}
+```
+
+#### 数组中删除元素
+
+```
+unset(array[2]);
+```
+
+```
+ <?php
+        $languages = array("HTML/CSS",
+        "JavaScript", "PHP", "Python", "Ruby");
+      
+        unset($languages[3]);
+                    
+        foreach($languages as $lang) {
+          print "<p>$lang</p>";
+        }
+        />
+```
+
+for循环
+-----
+
+```
+ <?php
+        // 输出前五个偶数
+        for ($i = 2; $i < 11; $i = $i + 2) {
+          echo $i;
+        }
+      ?>
+```
+
+foreach循环
+---------
+foreach循环是迭代对象里的每一个元素。
+
+```
+ <?php
+          $langs = array("JavaScript",
+          "HTML/CSS", "PHP",
+          "Python", "Ruby");
+        
+          foreach ($langs as $lang) {
+              echo "<li>$lang</li>";
+          }
+        
+          unset($lang);
+        ?>
+```
+
+while 循环
+--------
+
+```
+<?php
+	$headCount = 0;
+	$flipCount = 0;
+	while ($headCount < 3) {
+		$flip = rand(0,1);
+		$flipCount ++;
+		if ($flip){
+			$headCount ++;
+			echo "<div class=\"coin\">H</div>";
+		}
+		else {
+			$headCount = 0;
+			echo "<div class=\"coin\">T</div>";
+		}
+	}
+	echo "<p>It took {$flipCount} flips!</p>";
+	?>
+```
+
+#### endwhile的使用
+
+```
+<?php
+	 $isLoop = true;
+	 $index = 0;
+    while($isLoop):
+        if($index > 10){
+            $isLoop = false;
+            }
+            echo $index;
+            $index++;
+    endwhile;
+        ?>
+```
+
+#### do-while的使用
+
+先执行do中的代码，然后再执行while循环
+
+```
+<?php
+	$flipCount = 0;
+	do {
+		$flip = rand(0,1);
+		$flipCount ++;
+		if ($flip){
+			echo "<div class=\"coin\">H</div>";
+		}
+		else {
+			echo "<div class=\"coin\">T</div>";
+		}
+	} while ($flip);
+	$verb = "were";
+	$last = "flips";
+	if ($flipCount == 1) {
+		$verb = "was";
+		$last = "flip";
+	}
+	echo "<p>There {$verb} {$flipCount} {$last}!</p>";
+	?>
+```
+
+函数
+--
+
+#### 字符串内建函数
+
+ - strlen 返回字符串的长度
+ 
+
+```
+ <?php
+        $name = "chengfangpeng";
+        print strlen($name);
+    ?>
+```
+
+ - substr 截取字符串函数，返回截取到的子字符串
+
+```
+  <?php
+       $name = "chengfangpeng";
+	    print substr($name, 5, 10);
+    ?>
+
+```
+
+ - strtoupper 将字符串转为大写
+
+```
+ <?php
+
+    $name = "chengfangpeng";
+    print strtoupper($name);
+    ?>
+```
+ - strtolower 将字符串转为小写
+
+```
+  <?php
+    $name = "CHENGFANGPENG";
+    print strtolower($name);
+    ?>
+```
+ - strpos 找出字符串中某个子字符串的位置，如果没有所给的字符串，返回false，否则返回子字符串在原字符串中的位置。
+
+```
+ <?php
+   
+    $name = "chengfangpeng";
+    print strpos($name, "fang");
+    
+	if(strpos($name, "Hello") === false){
+        print "no match string";
+    }
+    ?>
+```
+
+#### 数学内建函数
+
+ - round 将一个float类型的数，四舍五入为整形，如果再传入保留位数参数可以转化成保留小数位的float类型。
+
+```
+ <?php
+      print round(M_PI); //3
+      print round(M_PI, 3);//3.142
+    ?>
+```
+
+```
+//使用rand，strlen，substr函数随机打印你姓名中的一个字母
+ <?php
+  
+    $name = "chengfangpeng";
+    $rIndex = rand(0, strlen($name));
+    print substr($name, $rIndex, 1);
+    ?>
+```
+
+
+ 
+
+ 
+
+
+
+

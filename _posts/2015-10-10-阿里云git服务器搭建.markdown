@@ -1,0 +1,181 @@
+---
+layout:     post
+title:      "阿里云git服务器搭建"
+subtitle:   " \"阿里云git服务器搭建\""
+date:       2015-10-10 12:00:00
+author:     "X-ray"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Git
+---
+
+前言
+--
+首先说一下我云服务器的配置，我租的是阿里云，内存1G，带宽1M，硬盘20G，装的系统是Ubuntu14.04 LTS，这样 的配置对于个人使用我觉得绰绰有余了。之前用git都是在github上，虽然方便但是对于爱折腾的人来说远远不够，而且github上的私有库是收费的，于是决定自己搭一个自己的git服务器。
+
+安装
+----
+1.需要一台装有Ubuntu的客户端机器
+2.在服务端和客户端都安装git
+	
+
+```
+sudo apt-get install git
+sudo apt-get install git-core
+```
+3.检测一下服务端有没有安装openssh
+
+```
+root@iZ25eua1h3uZ:~# ps -e | grep ssh
+  771 ?        00:00:00 sshd
+ 8407 ?        00:00:00 sshd
+```
+因为我客户端连接服务端是通过ssh登陆的
+
+```
+ssh username@Server
+```
+所以必须的有ssh，默认Ubuntu都会安装的，大家可以看看22端口是否被监听
+4.安装Gitosis
+
+gitosis主要用来Git仓库的权限管理，默认情况下git也是有权限管理的，但是不太好用，或者用起来比较复杂，所以选择了gitosis第三方的权限      管理工具。使用Gitosis可以在GIt上面管理访问仓库的用户权限，允许某些用户访问指定的仓库,对指定的仓库拥有读写控制,gitosis 是基 于git的管理方式，服务器安装好gitosis以后，超级管理员的客户端PC就 "git  clone  gitosis" 到本地,以后的工作,比如新仓库创建,权限管理都是在 超级管理 员的PC上进的,超级管理员的PC修改gitosis的配置后，需要把修改项提交到服务器端，这样其他的用户才有权限从服务器获取到源码进行Git管理,需要注意的是新仓库的创建，权限的管理务必不要直接在Git服务器上面进行修改，超级管理员的PC才具有这些功能。
+
+可以在～下新建目录叫src
+
+```
+mkdir src  
+cd ~/src  
+git clone https://github.com/res0nat0r/gitosis.git
+```
+cd ~/src/gitosis  
+
+```
+sudo python setup.py install 
+```
+
+注意：如果报错：
+
+```
+ImportError：No module named Setuptools 
+```
+
+说明python的安装包缺少setuptools包。
+ 
+解决方法:
+
+```
+sudo apt-get install python-setuptools 
+```
+
+5.在server端新建用户git
+
+```
+sudo adduser git
+```
+
+6.复制客户端的ssh公钥到服务器上
+建议放到tmp目录下，这样可以避免权限限制带来的问题。
+
+```
+scp ~/.ssh/id_rsa.pub git@Server:/tmp 
+```
+
+7.服务端初始化git server
+
+```
+sudo -H -u git gitosis-init < /tmp/id_rsa.pub 
+```
+
+会看到两行输出：
+
+```
+initilailized empty Git repository in /home/git/repositories/gitosis-admin.git/
+```
+
+```
+Reinitillized existing Git repository in /home/git/repositories/gitossi-admin.git/
+```
+
+这个步骤是给超级管理员的电脑授权，授权以后电脑B可以使用git clone命令下载gitosis-admin仓库，这个命令只需要在给超级管理员权限时使用，在增加其他的用户管理权限时，不需要这样做。
+
+ 修改一个文件的访问权限
+
+```
+sudo chmod 755 /home/git/repositories/gitosis-admin.git/hooks/post-update
+```
+8.客户端：同步gitosis－admin到客户端开始管理git server
+
+```
+git clone git@Server:gitosis-admin.git 
+```
+
+这样会在当前目录下fork一个gitosis-admin的目录。里面有一个配置文件gitosisi.conf和一个存放pub key的目录keydir。
+
+9 建立新的库和授权用户
+
+如果要新建库，编辑gitosisi.conf文件，添加
+
+```
+[gitosis]
+[group gitosis-admin]
+writable = gitosis-admin
+members =  chengfangpeng@foxmail.com
+[group gittest]
+writable = gittest
+members = chengfangpeng00@gmail.com
+```
+然后将修改后的内容pull到服务器上
+
+```
+git add -> git commit -> git push
+```
+新建gittest库
+
+```
+mkdir gittest
+
+cd gittest
+
+git init
+
+git add . 
+git commit  -a  -m "add new project"
+```
+
+c.建立本地与服务器关联
+
+```
+git remote add origin git@Server:gittest.git 
+```
+
+d.提交本地代码
+
+```
+git push origin master:refs/heads/master 
+```
+
+注意：这条命令在超级管理员的机器上面运行，将在服务器上面新创建一个仓库。
+至此新的库和对应文件已经上传到server端，其他用户可以
+
+```
+git clone git@Server:gettest.git 
+```
+
+11  安装GitWeb
+如果想在本地版本库看看自己项目的效果，不妨用Git 自带的一个命令，可以使用类似lighttpd这样轻量级的web服务器启动一个临时进程。
+安装lightpd
+
+```
+sudo apt-get install lighttpd
+```
+
+```
+git instaweb
+```
+
+这会在1234端口开启一个HTTPD 服务，随之在浏览器中显示该页，十分简单。关闭服务时，只需在原来的命令后面加上-stop 选项就可以了：
+$ git instaweb –stop
+至此完成了git server的搭建。
+
+来看看效果图分享一下成功的喜悦
+![这里写图片描述](http://img.blog.csdn.net/20151010102442006)
