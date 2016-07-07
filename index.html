@@ -26,13 +26,24 @@ description: "stay hungry, stay foolish"
 <script src="/js/jquery.min.js "></script>
 <script>
     $(function(){
-        $('.wrappers').addClass('form-success');
-        $(window).load(function(){
-            setTimeout(function(){
-                $('.htmleaf-containers').fadeOut();
-            },3000)
+        var address = window.location.href;
+        if (address.indexOf('?') != -1) {
+            if (window.location.search.indexOf('type') != -1) {
+                var addressArr = address.split('=');
+                var displayNumber = addressArr[1];
+                if (displayNumber >= 0) {
 
-        })
+                }
+            }
+        } else {
+            $('.wrappers').addClass('form-success');
+            $(window).load(function(){
+                setTimeout(function(){
+                    $('.htmleaf-containers').fadeOut();
+                },3000)
+
+            });
+        }
     })
 </script>
 

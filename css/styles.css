@@ -12,7 +12,8 @@
 
 }
 
-.wrappers.form-success .container h1 {
+.wrappers .container h1 {
+  color:#fff;
   -webkit-transform: translateY(85px);
       -ms-transform: translateY(85px);
           transform: translateY(85px);
@@ -32,6 +33,7 @@
           transition-timing-function: ease-in-put;
   font-weight: 200;
 }
+
 .bg-bubbles {
   position: absolute;
   top: 0;
