@@ -12,11 +12,9 @@
   height: 100%;
   overflow: hidden;
   z-index: 9999999;
-  transition: all 0.5s ease;
-
 }
 
-.wrappers.form-success .containers h1 {
+.form-success {
   -webkit-transform: translateY(85px);
       -ms-transform: translateY(85px);
           transform: translateY(85px);
@@ -31,11 +29,12 @@
 .containers h1 {
   color: #fff;
   font-size: 40px;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
   -webkit-transition-timing-function: ease-in-put;
           transition-timing-function: ease-in-put;
   font-weight: 200;
+  transition: all 0.5s ease;
 }
 .bg-bubbles {
   position: absolute;
