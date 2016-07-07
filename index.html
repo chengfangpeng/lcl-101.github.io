@@ -28,7 +28,10 @@ description: "stay hungry, stay foolish"
     $(function(){
         $('.wrapper').addClass('form-success');
         $(window).load(function(){
-            $('.htmleaf-container').fadeOut();
+            setTimeout(function(){
+                $('.htmleaf-container').fadeOut();
+            },3000)
+
         })
     })
 </script>
