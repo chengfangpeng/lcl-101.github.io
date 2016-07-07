@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="我是一个coder,但是我爱物理。">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>李成龙博客　| LCL Blog</title>
+
+    <link rel="canonical" href="lcl.itmadman.cn/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">LCL Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/?type=1">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/portfolio/">Portfolio</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Page Header -->
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>LCL Blog</h1>
+                    <!--<hr class="small">-->
+                    <span class="subheading">stay hungry, stay foolish</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+        
+
+<!-- USE SIDEBAR -->
+    <!-- PostList Container -->
+    		<div class="
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                postlist-container
+            ">
+    			<link rel="stylesheet" href="css/styles.css">
+<div class="white-box"></div>
+<div class="htmleaf-containers">
+    <div class="wrappers">
+        <div class="containers">
+            <h1>Welcome</h1>
+        </div>
+
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+<script src="/js/jquery.min.js "></script>
+<script>
+    $(function(){
+        var address = window.location.href;
+        if (address.indexOf('?') != -1) {
+            if (window.location.search.indexOf('type') != -1) {
+                $('.white-box').hide();
+            }
+        } else {
+            $('.white-box').hide();
+            $('.htmleaf-containers').show();
+            $('.wrappers h1').addClass('form-success');
+            $(window).load(function(){
+                setTimeout(function(){
+                    $('.htmleaf-containers').fadeOut();
+                },3000)
+
+            });
+        }
+    })
+</script>
+
+
+<div class="post-preview">
+    <a href="/2016/05/26/apk-decomplie/">
+        <h2 class="post-title">
+            Android反编译总结
+        </h2>
+        
+        <h3 class="post-subtitle">
+             "Android反编译总结"
+        </h3>
+        
+        <div class="post-content-preview">
+            
+  工欲善其事必先利其器
+
+
+前言
+
+Android反编译需要用到一些工具，使用这些工具可以大大的提高我们的工作效率。当然使用工具是一把双刃剑，一方面工具使我们的工作更方便，但另一方面工具把一些原理封装了起来，不利于我们的学习。所以使用工具的时候最好对工具的原理有一定的了解。
+
+jadx
+
+github地址，jadx是一个将android 的dex文件解码为java的工具。并且有GUI，用...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by X-ray on May 26, 2016
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2016/04/25/retrofit_introduce/">
+        <h2 class="post-title">
+            Retrofit介绍
+        </h2>
+        
+        <h3 class="post-subtitle">
+             "Retrofit介绍"
+        </h3>
+        
+        <div class="post-content-preview">
+            前言
+
+Retrofit是Square开发的一个用于网络请求的开源库，内部封装了okhttp,并且和RxAndroid完美的兼容，使得Android的开发效率增加不少的同时也使代码变得清晰易读。
+
+Gradle 依赖
+
+retrofit可以很方便的使用Maven和Gradle依赖，在1.x时retrofit默认是没有引入okhttp作为http client,需要手动的依赖。但是2.0版本已...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by X-ray on April 25, 2016
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2016/03/23/2016%E4%B9%A6%E5%8D%95/">
+        <h2 class="post-title">
+            2016年书单
+        </h2>
+        
+        <h3 class="post-subtitle">
+             "2016年书单"
+        </h3>
+        
+        <div class="post-content-preview">
+            读完
+
+
+  
+    Pro-Git 作者是github的创始人
+  
+  
+    协议森林用很直白但却很形象的文字帮助读者了解网络协议，读过这一系列文章后，你可以找到参考书籍，继续深入学习。
+  
+  
+    Python快速教程 文中代码主要基于python2.7.
+  
+
+
+在读
+
+
+  
+    TCP/IP详解　卷一：协议 不多说了该领域的经典
+  
+  
+    App研发...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by X-ray on March 23, 2016
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2016/03/09/Base64%E7%BC%96%E7%A0%81%E8%A7%A3%E6%9E%90/">
+        <h2 class="post-title">
+            Base64编码解析
+        </h2>
+        
+        <h3 class="post-subtitle">
+             "Base64编码解析"
+        </h3>
+        
+        <div class="post-content-preview">
+            Base64原理简介
+
+Base64是一种基于６４个可打印字符来表示二进制数据的表示方法，严格来讲并不是加密方法，仅仅是表示方法。由于每６bit为一个单元。三个字节有24个bit，对应于４个Base64单元
+
+
+
+这么说可能稍微有点抽象，举个例子就明白了，比如 “Man” 这个单词由3个字节，也就是24bit组成,按我们前面说的如果用Base64编码的话，由４个Base64单元组成。具体可以...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by X-ray on March 9, 2016
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2016/03/09/Php%E7%AC%94%E8%AE%B0-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">
+        <h2 class="post-title">
+            Php笔记-基础语法
+        </h2>
+        
+        <h3 class="post-subtitle">
+             "Php基础语法"
+        </h3>
+        
+        <div class="post-content-preview">
+            变量
+php 的变量必须用$开头
+
+$myAge
+
+
+
+switch语法
+switch有两种语法：
+
+
+  正常的语法：
+
+
+&lt;?php
+        $myAge = 25;
+        switch($myAge){
+            case 20:
+                print "your are age is 20";
+               ...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by X-ray on March 9, 2016
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2016/02/21/Ubuntu%E5%AE%89%E8%A3%85Fiddler/">
+        <h2 class="post-title">
+            Ubuntu安装Fiddler
+        </h2>
+        
+        <h3 class="post-subtitle">
+             "Ubuntu安装Fiddler"
+        </h3>
+        
+        <div class="post-content-preview">
+            前言
+
+Fiddler 是Windows上一个非常强大的抓包工具，其实在Ubuntu上也是可以安装的，具体的方法如下：
+
+安装mono
+fiddler是基于.net开发，所以安装fidder前需要安装.net framework。而.net framework 只能运行在windows，针对linux和mac操作系统，可通过安装mono framework 来支持fiddler运行。
+安装命...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by X-ray on February 21, 2016
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2016/01/10/Ubuntu%E7%A7%91%E5%AD%A6%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/">
+        <h2 class="post-title">
+            Ubuntu科学上网服务器搭建
+        </h2>
+        
+        <h3 class="post-subtitle">
+             "Ubuntu科学上网服务器搭建"
+        </h3>
+        
+        <div class="post-content-preview">
+            前言
+
+受天朝GFW的影响，包括大Google在内的很多境外网站访问不了，所以天朝的程序猿大多都练就了一种叫”翻墙”的功夫.从自由门，配置host，到goAgent，再到现在各色各样的vpn，翻墙的姿势也随着时代的发展发生着变化。
+
+工具
+代理服务器：搬瓦工（我租的是每月5刀的，1T的流量，对于个人用绰绰有余了）
+系统：Ubuntu 14.04
+代理工具：shadowsocks (项目的原作...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by X-ray on January 10, 2016
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2016/01/10/ubuntu%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7/">
+        <h2 class="post-title">
+            Ubuntu截图工具
+        </h2>
+        
+        <h3 class="post-subtitle">
+             "Ubuntu截图工具"
+        </h3>
+        
+        <div class="post-content-preview">
+            使用Ubuntu已近有一段时间了,但是有时候工作中需要截图，之前用的是win qq的截图，但是大家都懂得，qq在Ubuntu 体验差的要死，还是多年以前的版本。实在不是很方便。于是就找了一下Ubuntu上好的截图方法
+	方法一：其实Ubuntu是自带截图工具的（注：我用的是Ubuntu 14.04）在／usr/share/applications 中可以看到一个类似于照相机图标的应用
+
+
+
+...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by X-ray on January 10, 2016
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2015/10/29/android-animation/">
+        <h2 class="post-title">
+            Android属性动画
+        </h2>
+        
+        <h3 class="post-subtitle">
+             "Android Animation"
+        </h3>
+        
+        <div class="post-content-preview">
+            前言
+
+Property Animation是Android3.0引入的一种功能强大的动画系统。它除了可以给普通的View添加动画效果外，还可以给对象添加效果。另外，Property Animation与Tween Animation一个最大的区别是Property Animation更改是对象的实际属性，而后者只是View的绘制效果，比如一个Button实现一个移动的动画效果，如果使用Tw...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by X-ray on October 29, 2015
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2015/10/10/%E9%98%BF%E9%87%8C%E4%BA%91git%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/">
+        <h2 class="post-title">
+            阿里云git服务器搭建
+        </h2>
+        
+        <h3 class="post-subtitle">
+             "阿里云git服务器搭建"
+        </h3>
+        
+        <div class="post-content-preview">
+            前言
+首先说一下我云服务器的配置，我租的是阿里云，内存1G，带宽1M，硬盘20G，装的系统是Ubuntu14.04 LTS，这样 的配置对于个人使用我觉得绰绰有余了。之前用git都是在github上，虽然方便但是对于爱折腾的人来说远远不够，而且github上的私有库是收费的，于是决定自己搭一个自己的git服务器。
+
+安装
+1.需要一台装有Ubuntu的客户端机器
+2.在服务端和客户端都安装g...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by X-ray on October 10, 2015
+    </p>
+</div>
+<hr>
+
+
+<!-- Pager -->
+
+<ul class="pager">
+    
+    
+    <li class="next">
+        <a href="/page2">Older Posts &rarr;</a>
+    </li>
+    
+</ul>
+
+
+    		</div>
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-3 col-lg-offset-0
+                col-md-3 col-md-offset-0
+                col-sm-12
+                col-xs-12
+                sidebar-container
+            ">
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                            
+                                <a href="/tags/#生活" title="生活" rel="2">
+                                    生活
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#Android" title="Android" rel="4">
+                                    Android
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#Ubuntu" title="Ubuntu" rel="4">
+                                    Ubuntu
+                                </a>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Short About -->
+                <section class="visible-md visible-lg">
+                    <hr><h5><a href="">ABOUT ME</a></h5>
+                    <div class="short-about">
+                        
+                            <img src="/img/avatar-xray.jpg" />
+                        
+                        
+                            <p>stay hungry, stay foolish。</p>
+                        
+                        <!-- SNS Link -->
+                        <ul class="list-inline">
+                            
+                            
+                            
+                            
+                            <li>
+                                <a target="_blank" href="http://weibo.com/havencfp">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            
+                            
+                            <li>
+                                <a target="_blank" href="https://github.com/lichenglong">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </section>
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                </ul>
+                
+    		</div>
+        
+	</div>
+</div>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/havencfp">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/lichenglong">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; LCL Blog 2016
+                    <br>
+                    Theme © <a href="http://huangxuan.me">Hux</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="91px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- Highlight.js -->
+<script>
+    async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+        hljs.initHighlightingOnLoad();
+    })
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+<!--fastClick.js -->
+<script>
+    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        // var $nav = document.querySelector("nav");
+        // if($nav) FastClick.attach($nav);
+
+        // global FastClick!!
+        FastClick.attach(document.body);    
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
