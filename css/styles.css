@@ -29,12 +29,11 @@
 .containers h1 {
   color: #fff;
   font-size: 40px;
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-in-put;
           transition-timing-function: ease-in-put;
   font-weight: 200;
-  transition: all 0.5s ease;
 }
 .bg-bubbles {
   position: absolute;
