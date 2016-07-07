@@ -93,7 +93,7 @@ header-img: "img/home-bg-geek.jpg"
 <!-- 多说评论框 start -->
 <div class="comment">
     <div class="ds-thread"
-    {% if site.duoshuo_username = "lcl-101" %}
+    {% if site.duoshuo_username == "lcl-101" %}
     {% else %}
         data-thread-key="{{site.duoshuo_username}}/about"
     {% endif %}
