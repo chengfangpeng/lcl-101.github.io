@@ -3,6 +3,7 @@ layout: page
 description: "stay hungry, stay foolish"
 ---
 <link rel="stylesheet" href="css/styles.css">
+<div class="white-box"></div>
 <div class="htmleaf-containers">
     <div class="wrappers">
         <div class="containers">
@@ -29,13 +30,10 @@ description: "stay hungry, stay foolish"
         var address = window.location.href;
         if (address.indexOf('?') != -1) {
             if (window.location.search.indexOf('type') != -1) {
-                var addressArr = address.split('=');
-                var displayNumber = addressArr[1];
-                if (displayNumber >= 0) {
-
-                }
+                $('.white-box').hide();
             }
         } else {
+            $('.white-box').hide();
             $('.htmleaf-containers').show();
             $('.wrappers h1').addClass('form-success');
             $(window).load(function(){
