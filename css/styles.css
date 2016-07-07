@@ -1,3 +1,6 @@
+.htmleaf-containers {
+  display: none;
+}
 .wrappers {
   background: #50a3a2;
   background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
@@ -12,8 +15,7 @@
 
 }
 
-.wrappers .container h1 {
-  color:#fff;
+.wrappers.form-success .containers h1 {
   -webkit-transform: translateY(85px);
       -ms-transform: translateY(85px);
           transform: translateY(85px);
@@ -33,7 +35,6 @@
           transition-timing-function: ease-in-put;
   font-weight: 200;
 }
-
 .bg-bubbles {
   position: absolute;
   top: 0;
