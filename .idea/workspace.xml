@@ -3,8 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/08/16/miui6/index.html" afterPath="$PROJECT_DIR$/_site/2014/08/16/miui6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/09/04/is-pure-android-better/index.html" afterPath="$PROJECT_DIR$/_site/2014/09/04/is-pure-android-better/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/10/01/why-alibaba-ux-sucks/index.html" afterPath="$PROJECT_DIR$/_site/2014/10/01/why-alibaba-ux-sucks/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/11/20/responsive-web-design/index.html" afterPath="$PROJECT_DIR$/_site/2014/11/20/responsive-web-design/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/12/13/wechat-block-kuaidi/index.html" afterPath="$PROJECT_DIR$/_site/2014/12/13/wechat-block-kuaidi/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/01/29/hello-2015/index.html" afterPath="$PROJECT_DIR$/_site/2015/01/29/hello-2015/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/03/10/apple-event-2015/index.html" afterPath="$PROJECT_DIR$/_site/2015/03/10/apple-event-2015/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/03/25/digital-native/index.html" afterPath="$PROJECT_DIR$/_site/2015/03/25/digital-native/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/03/31/e2e_user_scenarios/index.html" afterPath="$PROJECT_DIR$/_site/2015/03/31/e2e_user_scenarios/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/04/14/unix-linux-note/index.html" afterPath="$PROJECT_DIR$/_site/2015/04/14/unix-linux-note/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/04/15/os-metro/index.html" afterPath="$PROJECT_DIR$/_site/2015/04/15/os-metro/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/05/11/see-u-ali/index.html" afterPath="$PROJECT_DIR$/_site/2015/05/11/see-u-ali/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/05/25/js-module-loader/index.html" afterPath="$PROJECT_DIR$/_site/2015/05/25/js-module-loader/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/06/15/alitrip-strategy/index.html" afterPath="$PROJECT_DIR$/_site/2015/06/15/alitrip-strategy/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/07/09/js-module-7day/index.html" afterPath="$PROJECT_DIR$/_site/2015/07/09/js-module-7day/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/09/22/js-version/index.html" afterPath="$PROJECT_DIR$/_site/2015/09/22/js-version/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/10/28/how-designer-learn-fe/index.html" afterPath="$PROJECT_DIR$/_site/2015/10/28/how-designer-learn-fe/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/12/15/ios9-safari-web/index.html" afterPath="$PROJECT_DIR$/_site/2015/12/15/ios9-safari-web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/12/28/css-sucks-2015/index.html" afterPath="$PROJECT_DIR$/_site/2015/12/28/css-sucks-2015/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2016/02/01/React-vs-Angular2/index.html" afterPath="$PROJECT_DIR$/_site/2016/02/01/React-vs-Angular2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2016/06/05/pwa-in-my-pov/index.html" afterPath="$PROJECT_DIR$/_site/2016/06/05/pwa-in-my-pov/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page2/index.html" afterPath="$PROJECT_DIR$/_site/page2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page3/index.html" afterPath="$PROJECT_DIR$/_site/page3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/portfolio/index.html" afterPath="$PROJECT_DIR$/_site/portfolio/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.33915213">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -66,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35051546">
-              <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -101,8 +129,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/portfolio/index.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -385,18 +413,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35051546">
-          <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.33915213">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
