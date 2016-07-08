@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/08/16/miui6/index.html" afterPath="$PROJECT_DIR$/_site/2014/08/16/miui6/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/01/29/hello-2015/index.html" afterPath="$PROJECT_DIR$/_site/2015/01/29/hello-2015/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/portfolio/index.html" afterPath="$PROJECT_DIR$/_site/portfolio/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,10 +39,10 @@
         <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6572165">
-              <caret line="162" column="97" selection-start-line="162" selection-start-column="97" selection-end-line="162" selection-end-column="97" />
+              <caret line="162" column="95" selection-start-line="162" selection-start-column="95" selection-end-line="162" selection-end-column="95" />
               <folding>
-                <marker date="1467962648000" expanded="true" signature="4913:5056" placeholder="..." />
-                <marker date="1467962648000" expanded="true" signature="4913:5057" placeholder="{...}" />
+                <marker date="1467962767000" expanded="true" signature="4913:5056" placeholder="..." />
+                <marker date="1467962767000" expanded="true" signature="4913:5057" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -447,10 +439,10 @@
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6572165">
-          <caret line="162" column="97" selection-start-line="162" selection-start-column="97" selection-end-line="162" selection-end-column="97" />
+          <caret line="162" column="95" selection-start-line="162" selection-start-column="95" selection-end-line="162" selection-end-column="95" />
           <folding>
-            <marker date="1467962648000" expanded="true" signature="4913:5056" placeholder="..." />
-            <marker date="1467962648000" expanded="true" signature="4913:5057" placeholder="{...}" />
+            <marker date="1467962767000" expanded="true" signature="4913:5056" placeholder="..." />
+            <marker date="1467962767000" expanded="true" signature="4913:5057" placeholder="{...}" />
           </folding>
         </state>
       </provider>
