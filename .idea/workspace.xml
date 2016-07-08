@@ -2,62 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/2015/01/29/hello-2015.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/2015/04/14/unix-linux-note.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/2015/05/25/js-module-loader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/2015/07/09/js-module-7day.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/2015/09/22/js-version.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/README.zh.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/css/hux-blog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/css/hux-blog.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/css/syntax.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/feed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/404-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/about-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/avatar-hux.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/contact-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/home-bg-o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/home-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/icon_wechat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/in-post/post-js-version/javascript-java.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/in-post/post-js-version/keep-calm-and-learn-javascript.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/post-bg-2015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/post-bg-js-module.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/post-bg-js-version.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/post-bg-unix-linux.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/tag-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/hux-blog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/hux-blog.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/jquery.tagcloud.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/less/hux-blog.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/less/sidebar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/tags.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.zh.md" afterPath="$PROJECT_DIR$/README.zh.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-25-js-module-loader.markdown" afterPath="$PROJECT_DIR$/_posts/2015-05-25-js-module-loader.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/README.zh.md" afterPath="$PROJECT_DIR$/_site/README.zh.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/404-bg.jpg" afterPath="$PROJECT_DIR$/_site/img/404-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/about-bg.jpg" afterPath="$PROJECT_DIR$/_site/img/about-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/avatar-hux.jpg" afterPath="$PROJECT_DIR$/_site/img/avatar-hux.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/contact-bg.jpg" afterPath="$PROJECT_DIR$/_site/img/contact-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/home-bg-o.jpg" afterPath="$PROJECT_DIR$/_site/img/home-bg-o.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/home-bg.jpg" afterPath="$PROJECT_DIR$/_site/img/home-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/icon_wechat.png" afterPath="$PROJECT_DIR$/_site/img/icon_wechat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/in-post/post-js-version/javascript-java.jpg" afterPath="$PROJECT_DIR$/_site/img/in-post/post-js-version/javascript-java.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/in-post/post-js-version/keep-calm-and-learn-javascript.png" afterPath="$PROJECT_DIR$/_site/img/in-post/post-js-version/keep-calm-and-learn-javascript.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/post-bg-2015.jpg" afterPath="$PROJECT_DIR$/_site/img/post-bg-2015.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/post-bg-js-module.jpg" afterPath="$PROJECT_DIR$/_site/img/post-bg-js-module.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/post-bg-js-version.jpg" afterPath="$PROJECT_DIR$/_site/img/post-bg-js-version.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/post-bg-unix-linux.jpg" afterPath="$PROJECT_DIR$/_site/img/post-bg-unix-linux.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/tag-bg.jpg" afterPath="$PROJECT_DIR$/_site/img/tag-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/404-bg.jpg" afterPath="$PROJECT_DIR$/img/404-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/about-bg.jpg" afterPath="$PROJECT_DIR$/img/about-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/avatar-hux.jpg" afterPath="$PROJECT_DIR$/img/avatar-hux.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/contact-bg.jpg" afterPath="$PROJECT_DIR$/img/contact-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home-bg-o.jpg" afterPath="$PROJECT_DIR$/img/home-bg-o.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home-bg.jpg" afterPath="$PROJECT_DIR$/img/home-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icon_wechat.png" afterPath="$PROJECT_DIR$/img/icon_wechat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/post-js-version/javascript-java.jpg" afterPath="$PROJECT_DIR$/img/in-post/post-js-version/javascript-java.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/post-js-version/keep-calm-and-learn-javascript.png" afterPath="$PROJECT_DIR$/img/in-post/post-js-version/keep-calm-and-learn-javascript.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-2015.jpg" afterPath="$PROJECT_DIR$/img/post-bg-2015.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-js-module.jpg" afterPath="$PROJECT_DIR$/img/post-bg-js-module.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-js-version.jpg" afterPath="$PROJECT_DIR$/img/post-bg-js-version.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-unix-linux.jpg" afterPath="$PROJECT_DIR$/img/post-bg-unix-linux.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tag-bg.jpg" afterPath="$PROJECT_DIR$/img/tag-bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNAME" afterPath="$PROJECT_DIR$/CNAME" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/keynote.html" afterPath="$PROJECT_DIR$/_layouts/keynote.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown" afterPath="$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-14-unix-linux-note.markdown" afterPath="$PROJECT_DIR$/_posts/2015-04-14-unix-linux-note.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-09-js-module-7day.markdown" afterPath="$PROJECT_DIR$/_posts/2015-07-09-js-module-7day.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-22-js-version.markdown" afterPath="$PROJECT_DIR$/_posts/2015-09-22-js-version.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/01/29/hello-2015.html" afterPath="$PROJECT_DIR$/_site/2015/01/29/hello-2015.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/04/14/unix-linux-note.html" afterPath="$PROJECT_DIR$/_site/2015/04/14/unix-linux-note.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/05/25/js-module-loader.html" afterPath="$PROJECT_DIR$/_site/2015/05/25/js-module-loader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/07/09/js-module-7day.html" afterPath="$PROJECT_DIR$/_site/2015/07/09/js-module-7day.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/09/22/js-version.html" afterPath="$PROJECT_DIR$/_site/2015/09/22/js-version.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/CNAME" afterPath="$PROJECT_DIR$/_site/CNAME" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/Gruntfile.js" afterPath="$PROJECT_DIR$/_site/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/LICENSE" afterPath="$PROJECT_DIR$/_site/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/README.md" afterPath="$PROJECT_DIR$/_site/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about.html" afterPath="$PROJECT_DIR$/_site/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/bootstrap.css" afterPath="$PROJECT_DIR$/_site/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/_site/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/hux-blog.css" afterPath="$PROJECT_DIR$/_site/css/hux-blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/hux-blog.min.css" afterPath="$PROJECT_DIR$/_site/css/hux-blog.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/syntax.css" afterPath="$PROJECT_DIR$/_site/css/syntax.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/bootstrap.js" afterPath="$PROJECT_DIR$/_site/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/_site/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/hux-blog.js" afterPath="$PROJECT_DIR$/_site/js/hux-blog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/hux-blog.min.js" afterPath="$PROJECT_DIR$/_site/js/hux-blog.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/jquery.js" afterPath="$PROJECT_DIR$/_site/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/jquery.min.js" afterPath="$PROJECT_DIR$/_site/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/less/hux-blog.less" afterPath="$PROJECT_DIR$/_site/less/hux-blog.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/less/mixins.less" afterPath="$PROJECT_DIR$/_site/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/less/sidebar.less" afterPath="$PROJECT_DIR$/_site/less/sidebar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/less/variables.less" afterPath="$PROJECT_DIR$/_site/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/package.json" afterPath="$PROJECT_DIR$/_site/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags.html" afterPath="$PROJECT_DIR$/_site/tags.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hux-blog.css" afterPath="$PROJECT_DIR$/css/hux-blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hux-blog.min.css" afterPath="$PROJECT_DIR$/css/hux-blog.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/syntax.css" afterPath="$PROJECT_DIR$/css/syntax.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feed.xml" afterPath="$PROJECT_DIR$/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hux-blog.js" afterPath="$PROJECT_DIR$/js/hux-blog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hux-blog.min.js" afterPath="$PROJECT_DIR$/js/hux-blog.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="$PROJECT_DIR$/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/hux-blog.less" afterPath="$PROJECT_DIR$/less/hux-blog.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/mixins.less" afterPath="$PROJECT_DIR$/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/sidebar.less" afterPath="$PROJECT_DIR$/less/sidebar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/variables.less" afterPath="$PROJECT_DIR$/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags.html" afterPath="$PROJECT_DIR$/tags.html" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,11 +132,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4875312">
-              <caret line="71" column="20" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -92,18 +145,28 @@
       <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="11" column="70" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="70" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="62" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.043814432">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -121,8 +184,8 @@
         <option value="$PROJECT_DIR$/portfolio/index.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -239,9 +302,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -270,34 +333,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4523196">
-          <caret line="99" column="13" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="70" />
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="62" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4875312">
-          <caret line="71" column="20" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="20" />
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043814432">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>

@@ -7,10 +7,10 @@
     <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="keyword"  content="">
+    <meta name="keywords"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Example Post using Keynote Layout - </title>
+    <title>JavaScript 模块化七日谈 - </title>
 
     <link rel="canonical" href="/2015/07/09/js-module-7day.html">
 
@@ -66,11 +66,6 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <!-- Known Issue, found by Hux:
-            <nav>'s height woule be hold on by its content.
-            so, when navbar scale out, the <nav> will cover tags.
-            also mask any touch event of tags, unfortunately.
-        -->
         <div id="huxblog_navbar">
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -80,6 +75,14 @@
                     
                     <li>
                         <a href="/about.html">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/portfolio/">Portfolio</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/">LCL</a>
                     </li>
                     
                     <li>
@@ -102,10 +105,8 @@
     var $navbar = document.querySelector('#huxblog_navbar');
     var $collapse = document.querySelector('.navbar-collapse');
 
-    $toggle.addEventListener('click', handleMagic)
-    function handleMagic(e){
-        if ($navbar.className.indexOf('in') > 0) {
-        // CLOSE
+    var __HuxNav__ = {
+        close: function(){
             $navbar.className = " ";
             // wait until animation end.
             setTimeout(function(){
@@ -114,23 +115,49 @@
                     $collapse.style.height = "0px"
                 }
             },400)
-        }else{
-        // OPEN
+        },
+        open: function(){
             $collapse.style.height = "auto"
             $navbar.className += " in";
         }
     }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
 </script>
 
 
     <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="/img/post-bg-js-version.jpg" width="0" height="0"> -->
+<!-- <img src="/" width="0" height="0"> -->
 
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
-        /*background-image: url('/img/post-bg-js-version.jpg')*/
+        /*background-image: url('/')*/
         height: 500px;
         overflow: hidden;
     }
@@ -153,10 +180,10 @@
                             <a class="tag" href="/tags/#JavaScript" title="JavaScript">JavaScript</a>
                             
                         </div>
-                        <h1>Example Post using Keynote Layout</h1>
+                        <h1>JavaScript 模块化七日谈</h1>
                         
                         
-                        <h2 class="subheading">Keynote: JavaScript Modularization Journey</h2>
+                        <h2 class="subheading">Slides: JavaScript Modularization Journey</h2>
                         
                         <span class="meta">Posted by Hux on July 9, 2015</span>
                     </div>
@@ -217,12 +244,18 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2015/05/25/js-module-loader.html" data-toggle="tooltip" data-placement="top" title="Example Post with Code Highlight">&larr; Previous Post</a>
+                        <a href="/2015/06/15/alitrip-strategy.html" data-toggle="tooltip" data-placement="top" title="聊聊「阿里旅行 · 去啊」—— 行业与战略 ">
+                        Previous<br>
+                        <span>聊聊「阿里旅行 · 去啊」—— 行业与战略 </span>
+                        </a>
                     </li>
                     
                     
                     <li class="next">
-                        <a href="/2015/09/22/js-version.html" data-toggle="tooltip" data-placement="top" title="Example Post">Next Post &rarr;</a>
+                        <a href="/2015/09/22/js-version.html" data-toggle="tooltip" data-placement="top" title="ES5, ES6, ES2016, ES.Next: JavaScript 的版本是怎么回事？「译」">
+                        Next<br>
+                        <span>ES5, ES6, ES2016, ES.Next: JavaScript 的版本是怎么回事？「译」</span>
+                        </a>
                     </li>
                     
                 </ul>
@@ -297,6 +330,7 @@
 
                     
                     
+                    
                 </ul>
                 <p class="copyright text-muted">
                     Copyright &copy;  2016
@@ -342,7 +376,8 @@
      so Huxblog drops it officially.
 
      - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
-     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers   
 -->
 <!--
     <script>
@@ -358,7 +393,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("/js/jquery.tagcloud.js",function(){
+        async('/js/jquery.tagcloud.js',function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
@@ -382,6 +417,12 @@
 
 
 <!-- Baidu Tongji -->
+
+
+
+
+<!-- Side Catalog -->
+
 
 
 
