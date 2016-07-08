@@ -446,12 +446,6 @@ Hux 的 Blog 就这么开通了。
 
 
     <!-- Footer -->
-<style>
-    body {
-        background: url("../img/bg2.jpg") no-repeat 0 0;
-        background-size: 100% 100%;
-    }
-</style>
 <footer>
     <div class="container">
         <div class="row">
@@ -577,6 +571,7 @@ Hux 的 Blog 就这么开通了。
 <!--水波纹插件-->
 <script>
     async('/js/jquery.ripples.js', function(){
+        $('body').css({ background: 'url("../img/bg2.jpg") no-repeat 0 0',backgroundSize:'contain'});
         try {
             $('body').ripples({
                 resolution: 512,

@@ -1,10 +1,4 @@
 <!-- Footer -->
-<style>
-    body {
-        background: url("../img/bg2.jpg") no-repeat 0 0;
-        background-size: 100% 100%;
-    }
-</style>
 <footer>
     <div class="container">
         <div class="row">
@@ -166,6 +160,7 @@
 <!--水波纹插件-->
 <script>
     async('{{"/js/jquery.ripples.js" | prepend: site.baseurl }}', function(){
+        $('body').css({ background: 'url("../img/bg2.jpg") no-repeat 0 0',backgroundSize:'contain'});
         try {
             $('body').ripples({
                 resolution: 512,
