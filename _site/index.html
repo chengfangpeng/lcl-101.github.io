@@ -334,6 +334,12 @@ Hux 的 Blog 就这么开通了。
 
 
     <!-- Footer -->
+<style>
+    body {
+        background: url("../img/bg2.jpg") no-repeat 0 0;
+        background-size: 100% 100%;
+    }
+</style>
 <footer>
     <div class="container">
         <div class="row">
@@ -402,7 +408,6 @@ Hux 的 Blog 就这么开通了。
 <!-- Custom Theme JavaScript -->
 <script src="/js/hux-blog.min.js "></script>
 
-
 <!-- async load function -->
 <script>
     function async(u, c) {
@@ -457,6 +462,21 @@ Hux 的 Blog 就这么开通了。
     })
 </script>
 
+<!--水波纹插件-->
+<script>
+    async('/js/jquery.ripples.js', function(){
+        try {
+            $('body').ripples({
+                resolution: 512,
+                dropRadius: 20, //px
+                perturbance: 0.04,
+            });
+        }
+        catch (e) {
+
+        }
+    })
+</script>
 
 <!-- Google Analytics -->
 
