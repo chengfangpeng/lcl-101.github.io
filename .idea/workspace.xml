@@ -2,7 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/08/16/miui6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/09/04/is-pure-android-better.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/09/04/is-pure-android-better/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/10/01/why-alibaba-ux-sucks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/10/01/why-alibaba-ux-sucks/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/11/20/responsive-web-design.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/11/20/responsive-web-design/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/12/13/wechat-block-kuaidi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/12/13/wechat-block-kuaidi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/01/29/hello-2015.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/03/10/apple-event-2015.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/03/10/apple-event-2015/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/03/25/digital-native.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/03/25/digital-native/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/03/31/e2e_user_scenarios.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/03/31/e2e_user_scenarios/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/04/14/unix-linux-note.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/04/14/unix-linux-note/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/04/15/os-metro.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/04/15/os-metro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/05/11/see-u-ali.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/05/11/see-u-ali/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/05/25/js-module-loader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/05/25/js-module-loader/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/06/15/alitrip-strategy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/06/15/alitrip-strategy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/07/09/js-module-7day.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/07/09/js-module-7day/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/09/22/js-version.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/09/22/js-version/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/10/28/how-designer-learn-fe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/10/28/how-designer-learn-fe/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/12/15/ios9-safari-web.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/12/15/ios9-safari-web/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/12/28/css-sucks-2015.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/12/28/css-sucks-2015/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/02/01/React-vs-Angular2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/02/01/React-vs-Angular2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/06/05/pwa-in-my-pov.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/06/05/pwa-in-my-pov/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/README.zh.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/less/hux-blog.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/less/side-catalog.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/less/sidebar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/tags.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/08/16/miui6/index.html" afterPath="$PROJECT_DIR$/_site/2014/08/16/miui6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/01/29/hello-2015/index.html" afterPath="$PROJECT_DIR$/_site/2015/01/29/hello-2015/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/portfolio/index.html" afterPath="$PROJECT_DIR$/_site/portfolio/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +98,18 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7152062">
-              <caret line="100" column="0" selection-start-line="86" selection-start-column="31" selection-end-line="100" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.43041238">
+              <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.807692">
+              <caret line="241" column="64" selection-start-line="241" selection-start-column="64" selection-end-line="241" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -63,6 +134,8 @@
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/_site/2015/01/29/hello-2015/index.html" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
       </list>
     </option>
   </component>
@@ -118,6 +191,78 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lcl-101.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcl-101.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcl-101.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcl-101.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcl-101.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="29" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello-2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcl-101.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcl-101.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcl-101.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcl-101.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,14 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41677418">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.043814432">
@@ -311,24 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10953608">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/keynote.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -372,10 +491,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41677418">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10953608">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.807692">
+          <caret line="241" column="64" selection-start-line="241" selection-start-column="64" selection-end-line="241" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/2015/01/29/hello-2015/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24613403">
+          <caret line="421" column="5" selection-start-line="421" selection-start-column="5" selection-end-line="421" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7152062">
-          <caret line="100" column="0" selection-start-line="86" selection-start-column="31" selection-end-line="100" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43041238">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
           <folding />
         </state>
       </provider>
