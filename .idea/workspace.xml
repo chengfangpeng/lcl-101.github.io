@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog-md-navbar.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/404-bg.jpg" afterPath="$PROJECT_DIR$/img/404-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/about-bg.jpg" afterPath="$PROJECT_DIR$/img/about-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/avatar-hux.jpg" afterPath="$PROJECT_DIR$/img/avatar-hux.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/avatar-sea-hux.jpg" afterPath="$PROJECT_DIR$/img/avatar-sea-hux.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg2.jpg" afterPath="$PROJECT_DIR$/img/bg2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/blog-desktop.jpg" afterPath="$PROJECT_DIR$/img/blog-desktop.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/blog-keynote.jpg" afterPath="$PROJECT_DIR$/img/blog-keynote.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/blog-sidebar.jpg" afterPath="$PROJECT_DIR$/img/blog-sidebar.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/contact-bg.jpg" afterPath="$PROJECT_DIR$/img/contact-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home-bg-art.jpg" afterPath="$PROJECT_DIR$/img/home-bg-art.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home-bg-geek.jpg" afterPath="$PROJECT_DIR$/img/home-bg-geek.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home-bg-o.jpg" afterPath="$PROJECT_DIR$/img/home-bg-o.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home-bg.jpg" afterPath="$PROJECT_DIR$/img/home-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icon_wechat.png" afterPath="$PROJECT_DIR$/img/icon_wechat.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/lcl.jpg" afterPath="$PROJECT_DIR$/img/lcl.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-2015.jpg" afterPath="$PROJECT_DIR$/img/post-bg-2015.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-alibaba.jpg" afterPath="$PROJECT_DIR$/img/post-bg-alibaba.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-alitrip.jpg" afterPath="$PROJECT_DIR$/img/post-bg-alitrip.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-android.jpg" afterPath="$PROJECT_DIR$/img/post-bg-android.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-apple-event-2015.jpg" afterPath="$PROJECT_DIR$/img/post-bg-apple-event-2015.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-e2e-ux.jpg" afterPath="$PROJECT_DIR$/img/post-bg-e2e-ux.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-ios9-web.jpg" afterPath="$PROJECT_DIR$/img/post-bg-ios9-web.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-js-module.jpg" afterPath="$PROJECT_DIR$/img/post-bg-js-module.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-js-version.jpg" afterPath="$PROJECT_DIR$/img/post-bg-js-version.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-kuaidi.jpg" afterPath="$PROJECT_DIR$/img/post-bg-kuaidi.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-miui6.jpg" afterPath="$PROJECT_DIR$/img/post-bg-miui6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-os-metro.jpg" afterPath="$PROJECT_DIR$/img/post-bg-os-metro.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-re-vs-ng2.jpg" afterPath="$PROJECT_DIR$/img/post-bg-re-vs-ng2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-rwd.jpg" afterPath="$PROJECT_DIR$/img/post-bg-rwd.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-universe.jpg" afterPath="$PROJECT_DIR$/img/post-bg-universe.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-unix-linux.jpg" afterPath="$PROJECT_DIR$/img/post-bg-unix-linux.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-sample-image.jpg" afterPath="$PROJECT_DIR$/img/post-sample-image.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tag-bg.jpg" afterPath="$PROJECT_DIR$/img/tag-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-    </list>
+    <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="" />
     <ignored path="lcl-101.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -58,18 +21,7 @@
     <favorites_list name="lcl-101.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43814433">
-              <caret line="84" column="64" selection-start-line="84" selection-start-column="64" selection-end-line="84" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -243,9 +195,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -443,7 +395,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43814433">
+        <state vertical-scroll-proportion="1.0953609">
           <caret line="84" column="64" selection-start-line="84" selection-start-column="64" selection-end-line="84" selection-end-column="64" />
           <folding />
         </state>
