@@ -151,7 +151,7 @@
 
 <!--fastClick.js -->
 <script>
-    async("/js/fastclick.js", function(){
+    async('"/js/fastclick.js" | prepend: site.baseurl ', function(){
         var $nav = document.querySelector("nav");
         if($nav) FastClick.attach($nav);
     })
