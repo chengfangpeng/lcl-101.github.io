@@ -498,16 +498,32 @@
 <!--水波纹插件-->
 <script>
     async('/js/jquery.ripples.js', function(){
-        $('body').css({ background: 'url("../img/bg2.jpg") no-repeat 0 0',backgroundSize:'cover'});
-        try {
-            $('body').ripples({
-                resolution: 512,
-                dropRadius: 20, //px
-                perturbance: 0.04,
-            });
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            return flag;
         }
-        catch (e) {
+        if (IsPC()) {
+            $('body').css({ background: 'url("../img/bg2.jpg") no-repeat 0 0',backgroundSize:'cover'});
+            try {
+                $('body').ripples({
+                    resolution: 512,
+                    dropRadius: 20, //px
+                    perturbance: 0.04,
+                });
+            }
+            catch (e) {
 
+            }
         }
     })
 </script>
