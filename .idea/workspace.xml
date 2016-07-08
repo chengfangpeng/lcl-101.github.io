@@ -2,223 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-01-29-hello-2015.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-07-21-eventbus_1.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-09-09-ubuntu中sublime3中文输入问题.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-10-10-阿里云git服务器搭建.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-10-29-android-animation.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-01-07-ubuntu截图工具.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-01-20-Ubuntu科学服务器搭建.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-02-21-Ubuntu安装Fiddler.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-03-09-Php笔记-基础语法.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-03-10-Base64编码解析.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-03-23-2016书单.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-05-25-retrofit_introduce.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-05-26-apk-decomplie.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/01/01/hello-2015/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/07/21/eventbus_1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/09/09/ubuntu中sublime3中文输入问题/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/10/10/阿里云git服务器搭建/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/10/29/android-animation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/01/10/Ubuntu科学服务器搭建/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/01/10/ubuntu截图工具/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/02/21/Ubuntu安装Fiddler/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/03/09/Base64编码解析/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/03/09/Php笔记-基础语法/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/03/23/2016书单/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/04/25/retrofit_introduce/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/05/26/apk-decomplie/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/attach/2015_Hux_SDE_cn.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/attach/2015_Hux_SDE_en.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/attach/2015_Hux_UX &amp; PD_cn.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/attach/2015_Hux_UX &amp; PD_en.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/attach/2016_Hux_DEV_en.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/attach/2016_Hux_en_PD.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/attach/2016_Hux_en_SE.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/avatar-xray.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/blog-desktop.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/blog-keynote.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/blog-md-navbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/blog-sidebar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/home-bg-art.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/home-bg-geek.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/forcify.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/open-source-license.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.019.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.020.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.021.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.023.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.026.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.028.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.029.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.030.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-alitrip-pd/post-alitrip-pd.031.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-c-u-ali-079717.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-c-u-ali-memo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-c-u-ali-team.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-kuaidi-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-kuaidi-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-metro-panorama.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-metro-real.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/in-post/post-metro-ui.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-alibaba.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-alitrip.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-android.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-apple-event-2015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-digital-native.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-e2e-ux.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-ios9-web.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-kuaidi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-miui-ux.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-miui6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-os-metro.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-re-vs-ng2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-rwd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-see-u-ali.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-bg-universe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/post-sample-image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/css/timeline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/fonts/huxico.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/fonts/huxico.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/fonts/huxico.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/fonts/huxico.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/avatar-xray.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/intern-alitrip.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/intern-lxu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/logo-jquery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/logo-kissy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/logo-react.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/logo-vue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/newmedia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/senova.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/work-busyweek.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/work-hslider.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/work-puzzle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/work-truth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/work-uihome.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/images/work-wepiao-bo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/portfolio/js/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/attach/2015_Hux_SDE_cn.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/attach/2015_Hux_SDE_en.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/attach/2015_Hux_UX &amp; PD_cn.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/attach/2015_Hux_UX &amp; PD_en.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/attach/2016_Hux_DEV_en.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/attach/2016_Hux_en_PD.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/attach/2016_Hux_en_SE.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/avatar-xray.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog-desktop.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog-keynote.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog-md-navbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog-sidebar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/home-bg-art.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/home-bg-geek.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/forcify.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/open-source-license.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.019.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.020.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.021.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.023.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.026.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.028.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.029.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.030.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.031.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-c-u-ali-079717.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-c-u-ali-memo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-c-u-ali-team.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-kuaidi-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-kuaidi-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-metro-panorama.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-metro-real.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/in-post/post-metro-ui.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-alibaba.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-alitrip.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-android.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-apple-event-2015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-digital-native.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-e2e-ux.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-ios9-web.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-kuaidi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-miui-ux.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-miui6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-os-metro.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-re-vs-ng2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-rwd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-see-u-ali.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-universe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-sample-image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/css/timeline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/fonts/huxico.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/fonts/huxico.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/fonts/huxico.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/fonts/huxico.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/avatar-xray.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/intern-alitrip.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/intern-lxu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/logo-jquery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/logo-kissy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/logo-react.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/logo-vue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/newmedia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/senova.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-busyweek.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-hslider.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-puzzle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-truth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-uihome.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-wepiao-bo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/js/modernizr.custom.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNAME" afterPath="$PROJECT_DIR$/CNAME" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/CNAME" afterPath="$PROJECT_DIR$/_site/CNAME" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/about-bg.jpg" afterPath="$PROJECT_DIR$/_site/img/about-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/home-bg.jpg" afterPath="$PROJECT_DIR$/_site/img/home-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/post-bg-2015.jpg" afterPath="$PROJECT_DIR$/_site/img/post-bg-2015.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/tag-bg.jpg" afterPath="$PROJECT_DIR$/_site/img/tag-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/about-bg.jpg" afterPath="$PROJECT_DIR$/img/about-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home-bg.jpg" afterPath="$PROJECT_DIR$/img/home-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-2015.jpg" afterPath="$PROJECT_DIR$/img/post-bg-2015.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tag-bg.jpg" afterPath="$PROJECT_DIR$/img/tag-bg.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/2015/01/29/hello-2015.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/2015/04/14/unix-linux-note.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/2015/05/25/js-module-loader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/2015/07/09/js-module-7day.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/2015/09/22/js-version.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/README.zh.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/css/hux-blog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/css/hux-blog.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/css/syntax.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/feed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/404-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/about-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/avatar-hux.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/contact-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/home-bg-o.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/home-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/icon_wechat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/in-post/post-js-version/javascript-java.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/in-post/post-js-version/keep-calm-and-learn-javascript.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/post-bg-2015.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/post-bg-js-module.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/post-bg-js-version.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/post-bg-unix-linux.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/img/tag-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/hux-blog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/hux-blog.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/js/jquery.tagcloud.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/less/hux-blog.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/less/sidebar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/huxblog-boilerplate/tags.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.zh.md" afterPath="$PROJECT_DIR$/README.zh.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/keynote.html" afterPath="$PROJECT_DIR$/_layouts/keynote.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/README.zh.md" afterPath="$PROJECT_DIR$/_site/README.zh.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/hux-blog.css" afterPath="$PROJECT_DIR$/_site/css/hux-blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/hux-blog.min.css" afterPath="$PROJECT_DIR$/_site/css/hux-blog.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/hux-blog.js" afterPath="$PROJECT_DIR$/_site/js/hux-blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/hux-blog.min.js" afterPath="$PROJECT_DIR$/_site/js/hux-blog.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hux-blog.css" afterPath="$PROJECT_DIR$/css/hux-blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hux-blog.min.css" afterPath="$PROJECT_DIR$/css/hux-blog.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hux-blog.js" afterPath="$PROJECT_DIR$/js/hux-blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hux-blog.min.js" afterPath="$PROJECT_DIR$/js/hux-blog.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/hux-blog.less" afterPath="$PROJECT_DIR$/less/hux-blog.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags.html" afterPath="$PROJECT_DIR$/tags.html" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -244,7 +83,27 @@
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.4875312">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <caret line="71" column="20" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="11" column="70" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -261,8 +120,8 @@
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/portfolio/index.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
@@ -380,7 +239,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -411,10 +270,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4523196">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4875312">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="20" />
           <folding />
         </state>
       </provider>
