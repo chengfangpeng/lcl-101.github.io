@@ -40,37 +40,42 @@ description: "可惜没有如果"
     {% endif %}
 </ul>
 {% endif %}
+<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
 <!--水波纹插件-->
 <script>
-    async('{{"/js/jquery.ripples.js" | prepend: site.baseurl }}', function(){
-        function IsPC() {
-            var userAgentInfo = navigator.userAgent;
-            var Agents = ["Android", "iPhone",
-                "SymbianOS", "Windows Phone",
-                "iPad", "iPod"];
-            var flag = true;
-            for (var v = 0; v < Agents.length; v++) {
-                if (userAgentInfo.indexOf(Agents[v]) > 0) {
-                    flag = false;
-                    break;
+    $(function(){
+        $(window).load(function(){
+            async('{{"/js/jquery.ripples.js" | prepend: site.baseurl }}', function(){
+                function IsPC() {
+                    var userAgentInfo = navigator.userAgent;
+                    var Agents = ["Android", "iPhone",
+                        "SymbianOS", "Windows Phone",
+                        "iPad", "iPod"];
+                    var flag = true;
+                    for (var v = 0; v < Agents.length; v++) {
+                        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                            flag = false;
+                            break;
+                        }
+                    }
+                    return flag;
                 }
-            }
-            return flag;
-        }
-        if (IsPC()) {
-            $(window).load(function(){
-                $('body').css({ background: 'url("/img/bg2.jpg") no-repeat 0 0',backgroundSize:'cover'});
-                try {
-                    $('body').ripples({
-                        resolution: 512,
-                        dropRadius: 20, //px
-                        perturbance: 0.04,
-                    });
-                }
-                catch (e) {
+                if (IsPC()) {
+
+                    $('body').css({ background: 'url("/img/bg2.jpg") no-repeat 0 0',backgroundSize:'cover'});
+                    try {
+                        $('body').ripples({
+                            resolution: 512,
+                            dropRadius: 20, //px
+                            perturbance: 0.04,
+                        });
+                    }
+                    catch (e) {
+
+                    }
 
                 }
-            });
-        }
+            })
+        });
     })
 </script>

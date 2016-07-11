@@ -330,13 +330,13 @@
                 </ul>
                 <p class="copyright text-muted">
                     Copyright &copy; Lcl Blog 2016
-                    <br>
-                    Theme by <a href="https://github.com/lcl-101">lcl</a> |
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="91px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
-                    </iframe>
+                    <!--<br>-->
+                    <!--Theme by <a href="https://github.com/lcl-101">lcl</a> |-->
+                    <!--<iframe-->
+                        <!--style="margin-left: 2px; margin-bottom:-5px;"-->
+                        <!--frameborder="0" scrolling="0" width="91px" height="20px"-->
+                        <!--src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >-->
+                    <!--</iframe>-->
                 </p>
             </div>
         </div>
@@ -406,40 +406,6 @@
     })
 </script>
 
-<!--水波纹插件-->
-<script>
-    async('/js/jquery.ripples.js', function(){
-        function IsPC() {
-            var userAgentInfo = navigator.userAgent;
-            var Agents = ["Android", "iPhone",
-                "SymbianOS", "Windows Phone",
-                "iPad", "iPod"];
-            var flag = true;
-            for (var v = 0; v < Agents.length; v++) {
-                if (userAgentInfo.indexOf(Agents[v]) > 0) {
-                    flag = false;
-                    break;
-                }
-            }
-            return flag;
-        }
-        if (IsPC()) {
-            $(window).load(function(){
-                $('body').css({ background: 'url("/img/bg2.jpg") no-repeat 0 0',backgroundSize:'cover'});
-                try {
-                    $('body').ripples({
-                        resolution: 512,
-                        dropRadius: 20, //px
-                        perturbance: 0.04,
-                    });
-                }
-                catch (e) {
-
-                }
-            });
-        }
-    })
-</script>
 
 <!-- Google Analytics -->
 
