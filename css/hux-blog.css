@@ -672,6 +672,7 @@ pre code {
 }
 .post-preview > a {
   color: #404040;
+  transition: all 0.5s ease;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
