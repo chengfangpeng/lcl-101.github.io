@@ -419,7 +419,7 @@ pre code {
   100% {-o-transform: rotateY(360deg)}
 }
 .navbar-header {
-  perspective: 100px;
+  perspective: 200px;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
