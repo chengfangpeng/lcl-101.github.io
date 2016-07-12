@@ -17,8 +17,11 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
 
+    <!--jquery.rippleria.min-->
+    <link rel="stylesheet" href="/css/jquery.rippleria.min.css">
+
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/hux-blog.min.css">
+    <link rel="stylesheet" href="/css/hux-blog.css">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
@@ -205,7 +208,7 @@ Hux 的 Blog 就这么开通了。
         </div>
     </a>
     <p class="post-meta">
-        Posted by Hux on January 29, 2015
+        Posted by lcl on January 29, 2015
     </p>
 </div>
 <hr>
@@ -233,7 +236,7 @@ Hux 的 Blog 就这么开通了。
         </div>
     </a>
     <p class="post-meta">
-        Posted by Hux on August 16, 2014
+        Posted by lcl on August 16, 2014
     </p>
 </div>
 <hr>
@@ -295,10 +298,6 @@ Hux 的 Blog 就这么开通了。
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
-                        
-                            
-                        
-                            
                         
                             
                         
@@ -494,7 +493,28 @@ Hux 的 Blog 就这么开通了。
     })
 </script>
 
-
+<!--点击效果-->
+<script>
+    async('/js/jquery.rippleria.min.js',function(){
+        function randInt(min, max) {
+            var rand = min + Math.random() * (max - min)
+            rand = Math.round(rand);
+            return rand;
+        }
+        $('.intro-header').rippleria({
+            // aniamtion speed
+            duration: 750,
+            // custom easing effect
+            easing: 'linear',
+            // custom color
+            color: undefined
+        });
+        $('.intro-header').on('click',function(e){
+            e.preventDefault();
+            $('.intro-header').rippleria('changeColor', 'rgba('+randInt(0,255)+','+randInt(0,255)+','+randInt(0,255)+',0.'+randInt(3,5));
+        })
+    })
+</script>
 <!-- Google Analytics -->
 
 <script>

@@ -17,8 +17,11 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
 
+    <!--jquery.rippleria.min-->
+    <link rel="stylesheet" href="/css/jquery.rippleria.min.css">
+
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/hux-blog.min.css">
+    <link rel="stylesheet" href="/css/hux-blog.css">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
@@ -288,7 +291,28 @@
     })
 </script>
 
-
+<!--点击效果-->
+<script>
+    async('/js/jquery.rippleria.min.js',function(){
+        function randInt(min, max) {
+            var rand = min + Math.random() * (max - min)
+            rand = Math.round(rand);
+            return rand;
+        }
+        $('.intro-header').rippleria({
+            // aniamtion speed
+            duration: 750,
+            // custom easing effect
+            easing: 'linear',
+            // custom color
+            color: undefined
+        });
+        $('.intro-header').on('click',function(e){
+            e.preventDefault();
+            $('.intro-header').rippleria('changeColor', 'rgba('+randInt(0,255)+','+randInt(0,255)+','+randInt(0,255)+',0.'+randInt(3,5));
+        })
+    })
+</script>
 <!-- Google Analytics -->
 
 <script>

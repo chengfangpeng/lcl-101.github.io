@@ -157,7 +157,28 @@
     })
 </script>
 
-
+<!--点击效果-->
+<script>
+    async('{{ "/js/jquery.rippleria.min.js" | prepend: site.baseurl }}',function(){
+        function randInt(min, max) {
+            var rand = min + Math.random() * (max - min)
+            rand = Math.round(rand);
+            return rand;
+        }
+        $('.intro-header').rippleria({
+            // aniamtion speed
+            duration: 750,
+            // custom easing effect
+            easing: 'linear',
+            // custom color
+            color: undefined
+        });
+        $('.intro-header').on('click',function(e){
+            e.preventDefault();
+            $('.intro-header').rippleria('changeColor', 'rgba('+randInt(0,255)+','+randInt(0,255)+','+randInt(0,255)+',0.'+randInt(3,5));
+        })
+    })
+</script>
 <!-- Google Analytics -->
 {% if site.ga_track_id %}
 <script>

@@ -5,8 +5,8 @@
     <description>关于前端与设计、黑客与画家 | 黄玄，Web &amp; Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。</description>
     <link>http://huangxuan.me/</link>
     <atom:link href="http://huangxuan.me/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 11 Jul 2016 14:02:26 +0800</pubDate>
-    <lastBuildDate>Mon, 11 Jul 2016 14:02:26 +0800</lastBuildDate>
+    <pubDate>Tue, 12 Jul 2016 17:21:48 +0800</pubDate>
+    <lastBuildDate>Tue, 12 Jul 2016 17:21:48 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -25,7 +25,7 @@
 
 &lt;p&gt;作为一个程序员， Blog 这种轮子要是挂在大众博客程序上就太没意思了。一是觉得大部分 Blog 服务都太丑，二是觉得不能随便定制不好玩。之前因为太懒没有折腾，结果就一直连个写 Blog 的地儿都没有。&lt;/p&gt;
 
-&lt;p&gt;在玩了一段时间知乎之后，答题的快感又激起了我开博客的冲动。之前的&lt;a href=&quot;http://huangxuan.me/portfolio&quot;&gt;个人网站&lt;/a&gt;是作品集形式的（现在集成进来了），并不适合用来写博文，一不做二不休，花一天搞一个吧！&lt;/p&gt;
+&lt;p&gt;在玩了一段时间知乎之后，答题的快感又激起了我开博客的冲动。之前的&lt;a href=&quot;http://lcl-101.github.io/portfolio&quot;&gt;个人网站&lt;/a&gt;是作品集形式的（现在集成进来了），并不适合用来写博文，一不做二不休，花一天搞一个吧！&lt;/p&gt;
 
 &lt;p id=&quot;build&quot;&gt;&lt;/p&gt;
 &lt;hr /&gt;
@@ -144,11 +144,7 @@
         <link>http://huangxuan.me/2014/08/16/miui6/</link>
         <guid isPermaLink="true">http://huangxuan.me/2014/08/16/miui6/</guid>
         
-        <category>知乎</category>
-        
         <category>MIUI</category>
-        
-        <category>Android</category>
         
         
       </item>

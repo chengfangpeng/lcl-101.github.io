@@ -17,8 +17,11 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
 
+    <!--jquery.rippleria.min-->
+    <link rel="stylesheet" href="/css/jquery.rippleria.min.css">
+
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/hux-blog.min.css">
+    <link rel="stylesheet" href="/css/hux-blog.css">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
@@ -167,11 +170,7 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/#知乎" title="知乎">知乎</a>
-                        
                         <a class="tag" href="/tags/#MIUI" title="MIUI">MIUI</a>
-                        
-                        <a class="tag" href="/tags/#Android" title="Android">Android</a>
                         
                     </div>
                     <h1>「知乎」如何评价 MIUI 6？</h1>
@@ -179,7 +178,7 @@
                     
                     <h2 class="subheading"></h2>
                     
-                    <span class="meta">Posted by Hux on August 16, 2014</span>
+                    <span class="meta">Posted by lcl on August 16, 2014</span>
                 </div>
             </div>
         </div>
@@ -326,10 +325,6 @@
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
-        				
-                            
-        				
-                            
         				
                             
         				
@@ -536,7 +531,28 @@
     })
 </script>
 
-
+<!--点击效果-->
+<script>
+    async('/js/jquery.rippleria.min.js',function(){
+        function randInt(min, max) {
+            var rand = min + Math.random() * (max - min)
+            rand = Math.round(rand);
+            return rand;
+        }
+        $('.intro-header').rippleria({
+            // aniamtion speed
+            duration: 750,
+            // custom easing effect
+            easing: 'linear',
+            // custom color
+            color: undefined
+        });
+        $('.intro-header').on('click',function(e){
+            e.preventDefault();
+            $('.intro-header').rippleria('changeColor', 'rgba('+randInt(0,255)+','+randInt(0,255)+','+randInt(0,255)+',0.'+randInt(3,5));
+        })
+    })
+</script>
 <!-- Google Analytics -->
 
 <script>
