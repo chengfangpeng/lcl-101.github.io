@@ -756,6 +756,9 @@ footer .list-inline {
   margin: 0;
   padding: 0;
 }
+footer .list-inline li a {
+  transition: all 0.5s ease;
+}
 footer .copyright {
   font-size: 14px;
   text-align: center;
