@@ -398,11 +398,20 @@ pre code {
   font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
 }
+@keyframes logo
+{
+  0% {transform: rotateY(0deg)}
+  100% {transform: rotateY(360deg)}
+}
+.navbar-header {
+  perspective: 100px;
+}
 .navbar-custom .navbar-brand {
   font-weight: 800;
   color: white;
   height: 56px;
   line-height: 25px;
+  animation: logo 2s ease 0s infinite alternate;
 }
 .navbar-custom .navbar-brand:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -426,9 +435,9 @@ pre code {
 .navbar-custom .nav li a::after {
   display: inline-block;
   opacity: 0;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
-  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
-  transition: transform 0.3s, opacity 0.2s;
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.2s;
+  transition: transform 0.5s, opacity 0.2s;
 }
 .navbar-custom .nav li a::before {
   margin-right: 10px;
