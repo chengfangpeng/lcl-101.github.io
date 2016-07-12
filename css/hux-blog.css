@@ -403,6 +403,21 @@ pre code {
   0% {transform: rotateY(0deg)}
   100% {transform: rotateY(360deg)}
 }
+@-webkit-keyframes logo
+{
+  0% {-webkit-transform: rotateY(0deg)}
+  100% {-webkit-transform: rotateY(360deg)}
+}
+@-moz-keyframes logo
+{
+  0% {-moz-transform: rotateY(0deg)}
+  100% {-moz-transform: rotateY(360deg)}
+}
+@-o-keyframes logo
+{
+  0% {-o-transform: rotateY(0deg)}
+  100% {-o-transform: rotateY(360deg)}
+}
 .navbar-header {
   perspective: 100px;
 }
@@ -412,6 +427,9 @@ pre code {
   height: 56px;
   line-height: 25px;
   animation: logo 2s cubic-bezier(0.47, 0, 0.73, 0.71) 0s infinite;
+  -webkit-animation: logo 2s cubic-bezier(0.47, 0, 0.73, 0.71) 0s infinite;
+  -moz-animation: logo 2s cubic-bezier(0.47, 0, 0.73, 0.71) 0s infinite;
+  -o-animation: logo 2s cubic-bezier(0.47, 0, 0.73, 0.71) 0s infinite;
 }
 .navbar-custom .navbar-brand:hover {
   color: rgba(255, 255, 255, 0.8);
