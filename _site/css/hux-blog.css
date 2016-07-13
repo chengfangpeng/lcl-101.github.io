@@ -23,6 +23,7 @@
 }
 .sidebar-container a {
   color: #bfbfbf !important;
+  transition: all 0.5s ease;
 }
 .sidebar-container a:hover,
 .sidebar-container a:active {
@@ -671,6 +672,7 @@ pre code {
 }
 .post-preview > a {
   color: #404040;
+  transition: all 0.2s ease;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -754,6 +756,9 @@ footer {
 footer .list-inline {
   margin: 0;
   padding: 0;
+}
+footer .list-inline li a {
+  transition: all 0.5s ease;
 }
 footer .copyright {
   font-size: 14px;
