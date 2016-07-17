@@ -6,7 +6,7 @@ author:     "lcl"
 header-img: "img/post-bg-re-vs-ng2.jpg"
 catalog: true
 tags:
-    - html
+    - javascript
 ---
 
 
