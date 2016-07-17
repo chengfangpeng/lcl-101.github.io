@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "html"
+title:      "JavaScript"
 date:       2016-07-17 11:00:00
 author:     "lcl"
 header-img: "img/post-bg-re-vs-ng2.jpg"
