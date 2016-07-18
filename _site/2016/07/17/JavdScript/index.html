@@ -196,11 +196,15 @@
 <h2 id="section">使用!!操作符转换布尔值</h2>
 <p>有时候我们需要对一个变量查检其是否存在或者检查值是否有一个有效值，如果存在就返回<strong>true</strong>值。为了做这样的验证，我们可以使用<strong>!!</strong>操作符来实现是非常的方便与简单。对于变量可以使用<strong>!!variable</strong>做检测，只要变量的值为:<strong>0</strong>、<strong>null</strong>、<strong>”“</strong>、<strong>undefined</strong>或者<strong>NaN</strong>都将返回的是<strong>false</strong>，反之返回的是<strong>true</strong>。比如下面的示例：</p>
 
-<p><code class="highlighter-rouge">function Account(cash) {
+<div class="highlighter-rouge"><pre class="highlight"><code>
+function Account(cash) {
     this.cash = cash;    this.hasMoney = !!cash;
 }var account = new Account(100.50);
 console.log(account.cash); // 100.50console.log(account.hasMoney); // truevar emptyAccount = new Account(0);
-console.log(emptyAccount.cash); // 0console.log(emptyAccount.hasMoney); // false</code></p>
+console.log(emptyAccount.cash); // 0console.log(emptyAccount.hasMoney); // false
+
+</code></pre>
+</div>
 
 <p>在这个示例中，只要<strong>account.cash</strong>的值大于<strong>0</strong>，那么<strong>account.hasMoney</strong>返回的值就是true。</p>
 

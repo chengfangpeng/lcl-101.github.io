@@ -5,8 +5,8 @@
     <description>关于前端与设计 | 这里是 @LCL 李成龙 的个人博客，与你一起发现更大的世界。</description>
     <link>https://lcl-101.github.io/</link>
     <atom:link href="https://lcl-101.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Jul 2016 19:05:19 +0800</pubDate>
-    <lastBuildDate>Mon, 18 Jul 2016 19:05:19 +0800</lastBuildDate>
+    <pubDate>Mon, 18 Jul 2016 19:06:37 +0800</pubDate>
+    <lastBuildDate>Mon, 18 Jul 2016 19:06:37 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -17,11 +17,15 @@
 &lt;h2 id=&quot;section&quot;&gt;使用!!操作符转换布尔值&lt;/h2&gt;
 &lt;p&gt;有时候我们需要对一个变量查检其是否存在或者检查值是否有一个有效值，如果存在就返回&lt;strong&gt;true&lt;/strong&gt;值。为了做这样的验证，我们可以使用&lt;strong&gt;!!&lt;/strong&gt;操作符来实现是非常的方便与简单。对于变量可以使用&lt;strong&gt;!!variable&lt;/strong&gt;做检测，只要变量的值为:&lt;strong&gt;0&lt;/strong&gt;、&lt;strong&gt;null&lt;/strong&gt;、&lt;strong&gt;”“&lt;/strong&gt;、&lt;strong&gt;undefined&lt;/strong&gt;或者&lt;strong&gt;NaN&lt;/strong&gt;都将返回的是&lt;strong&gt;false&lt;/strong&gt;，反之返回的是&lt;strong&gt;true&lt;/strong&gt;。比如下面的示例：&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;function Account(cash) {
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+function Account(cash) {
     this.cash = cash;    this.hasMoney = !!cash;
 }var account = new Account(100.50);
 console.log(account.cash); // 100.50console.log(account.hasMoney); // truevar emptyAccount = new Account(0);
-console.log(emptyAccount.cash); // 0console.log(emptyAccount.hasMoney); // false&lt;/code&gt;&lt;/p&gt;
+console.log(emptyAccount.cash); // 0console.log(emptyAccount.hasMoney); // false
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;在这个示例中，只要&lt;strong&gt;account.cash&lt;/strong&gt;的值大于&lt;strong&gt;0&lt;/strong&gt;，那么&lt;strong&gt;account.hasMoney&lt;/strong&gt;返回的值就是true。&lt;/p&gt;
 
