@@ -20,10 +20,16 @@ tags:
 ```
 
 function Account(cash) {
-    this.cash = cash;    this.hasMoney = !!cash;
-}var account = new Account(100.50);
-console.log(account.cash); // 100.50console.log(account.hasMoney); // truevar emptyAccount = new Account(0);
-console.log(emptyAccount.cash); // 0console.log(emptyAccount.hasMoney); // false
+    this.cash = cash;    
+    this.hasMoney = !!cash;
+}
+var account = new Account(100.50);
+console.log(account.cash); 
+// 100.50console.log(account.hasMoney); 
+// truevar emptyAccount = new Account(0);
+console.log(emptyAccount.cash); 
+// 0console.log(emptyAccount.hasMoney); 
+// false
 
 ```
 
@@ -42,14 +48,17 @@ console.log(emptyAccount.cash); // 0console.log(emptyAccount.hasMoney); // false
 function toNumber(strNumber) {
     return +strNumber;
 }
-console.log(toNumber("1234")); // 1234console.log(toNumber("ACB")); // NaN
+console.log(toNumber("1234")); 
+// 1234console.log(toNumber("ACB")); 
+// NaN
 
 ```
 
 这个也适用于`Date`，在本例中，它将返回的是时间戳数字
 
 ```
-console.log(+new Date()) // 1461288164385
+console.log(+new Date()) 
+// 1461288164385
 
 ```
 
@@ -98,10 +107,16 @@ user && user.login();
 ```
 
 function User(name, age) {
-    this.name = name || "Oliver Queen";    this.age = age || 27;
-}var user1 = new User();
-console.log(user1.name); // Oliver Queenconsole.log(user1.age); // 27var user2 = new User("Barry Allen", 25);
-console.log(user2.name); // Barry Allenconsole.log(user2.age); // 25
+    this.name = name || "Oliver Queen";    
+    this.age = age || 27;
+}
+var user1 = new User();
+console.log(user1.name); 
+// Oliver Queenconsole.log(user1.age); 
+// 27var user2 = new User("Barry Allen", 25);
+console.log(user2.name); 
+// Barry Allenconsole.log(user2.age); 
+// 25
 
 ```
 
@@ -173,7 +188,10 @@ if ('querySelector' in document) {
 ```
 
 var array = [1,2,3,4,5,6];
-console.log(array.slice(-1)); // [6]console.log(array.slice(-2)); // [5,6]console.log(array.slice(-3)); // [4,5,6]
+console.log(array.slice(-1)); 
+// [6]console.log(array.slice(-2)); 
+// [5,6]console.log(array.slice(-3)); 
+// [4,5,6]
 
 ```
 
@@ -188,8 +206,11 @@ console.log(array.slice(-1)); // [6]console.log(array.slice(-2)); // [5,6]consol
 ```
 
 var array = [1,2,3,4,5,6];
-console.log(array.length); // 6array.length = 3;
-console.log(array.length); // 3console.log(array); // [1,2,3]
+console.log(array.length); 
+// 6array.length = 3;
+console.log(array.length); 
+// 3console.log(array);
+ // [1,2,3]
 替换所有
 
 ```
@@ -219,7 +240,8 @@ console.log(string.replace(/hn/, "ana")); // "joana john"console.log(string.repl
 ```
 
 var array1 = [1,2,3];var array2 = [4,5,6];
-console.log(array1.concat(array2)); // [1,2,3,4,5,6];
+console.log(array1.concat(array2)); 
+// [1,2,3,4,5,6];
 
 ```
 
@@ -229,7 +251,8 @@ console.log(array1.concat(array2)); // [1,2,3,4,5,6];
 ```
 
 var array1 = [1,2,3];var array2 = [4,5,6];
-console.log(array1.push.apply(array1, array2)); // [1,2,3,4,5,6];
+console.log(array1.push.apply(array1, array2)); 
+// [1,2,3,4,5,6];
 
 ```
 
@@ -242,7 +265,10 @@ console.log(array1.push.apply(array1, array2)); // [1,2,3,4,5,6];
 
 ```
 
-var elements = document.querySelectorAll("p"); // NodeListvar arrayElements = [].slice.call(elements); // Now the NodeList is an arrayvar arrayElements = Array.from(elements); // This is another way of converting NodeList to Array
+var elements = document.querySelectorAll("p"); 
+// NodeListvar arrayElements = [].slice.call(elements); 
+// Now the NodeList is an arrayvar arrayElements = Array.from(elements); 
+// This is another way of converting NodeList to Array
 
 ```
 
@@ -255,7 +281,8 @@ var elements = document.querySelectorAll("p"); // NodeListvar arrayElements = []
 ```
 
 var list = [1,2,3];
-console.log(list.sort(function() { Math.random() - 0.5 })); // [2,1,3]
+console.log(list.sort(function() { Math.random() - 0.5 })); 
+// [2,1,3]
 
 ```
 
