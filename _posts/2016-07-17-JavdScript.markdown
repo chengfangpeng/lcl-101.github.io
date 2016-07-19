@@ -11,16 +11,20 @@ tags:
 
 
 # 实例：12个你未必知道的JavaScript技巧
+
 实例：12个你未必知道的JavaScript技巧
 
+
 ## 使用!!操作符转换布尔值
+
 有时候我们需要对一个变量查检其是否存在或者检查值是否有一个有效值，如果存在就返回`true`值。为了做这样的验证，我们可以使用`!!`操作符来实现是非常的方便与简单。对于变量可以使用`!!variable`做检测，只要变量的值为:`0`、`null`、`""`、`undefined`或者`NaN`都将返回的是`false`，反之返回的是`true`。比如下面的示例：
 
 
 ```
 
 function Account(cash) {
-    this.cash = cash;    this.hasMoney = !!cash;
+    this.cash = cash;    
+    this.hasMoney = !!cash;
 }
 var account = new Account(100.50);
 console.log(account.cash); // 100.50console.log(account.hasMoney); // truevar emptyAccount = new Account(0);
@@ -31,10 +35,10 @@ console.log(emptyAccount.cash); // 0console.log(emptyAccount.hasMoney); // false
 在这个示例中，只要`account.cash`的值大于`0`，那么`account.hasMoney`返回的值就是true。
 
 
----
 
 
 ## 使用+将字符串转换成数字
+
 这个技巧非常有用，其非常简单，可以交字符串数据转换成数字，不过其只适合用于字符串数据，否则将返回`NaN`，比如下面的示例：
 
 
@@ -55,11 +59,9 @@ console.log(+new Date()) // 1461288164385
 ```
 
 
----
 
 
 ## 并条件符
-
 
 如果你有一段这样的代码：
 
@@ -89,7 +91,6 @@ user && user.login();
 
 ```
 
----
 
 ## 使用||运算符
 
@@ -107,7 +108,6 @@ console.log(user2.name); // Barry Allenconsole.log(user2.age); // 25
 
 ```
 
----
 
 ## 在循环中缓存`array.length`
 
@@ -145,7 +145,6 @@ for(var i = 0, length = array.length; i < length; i++) {
 ```
 
 
----
 
 ## 检测对象中属性
 
@@ -165,7 +164,7 @@ if ('querySelector' in document) {
 
 在这个示例中，如果`document`不存在`querySelector`函数，那么就会调用`docuemnt.getElementById("id")`。
 
----
+
 
 ## 获取数组中最后一个元素
 
@@ -180,7 +179,6 @@ console.log(array.slice(-1)); // [6]console.log(array.slice(-2)); // [5,6]consol
 ```
 
 
----
 
 ## 数组截断
 
@@ -196,7 +194,6 @@ console.log(array.length); // 3console.log(array); // [1,2,3]
 ```
 
 
----
 
 ## 替换所有
 
@@ -210,7 +207,6 @@ console.log(string.replace(/hn/, "ana")); // "joana john"console.log(string.repl
 
 ```
 
----
 
 ## 合并数组
 
@@ -235,7 +231,7 @@ console.log(array1.push.apply(array1, array2)); // [1,2,3,4,5,6];
 ```
 
 
----
+
 ## 将`NodeList`转换成数组
 
 如果你运行`document.querySelectorAll(“p”)`函数时，它可能返回`DOM`元素的数组，也就是`NodeList`对象。但这个对象不具有数组的函数功能，比如`sort()`、`reduce()`、`map()`、`filter()`等。为了让这些原生的数组函数功能也能用于其上面，需要将节点列表转换成数组。可以使用`[].slice.call(elements)`来实现：
@@ -260,7 +256,6 @@ console.log(list.sort(function() { Math.random() - 0.5 })); // [2,1,3]
 
 ```
 
----
 
 ## 总结
 
