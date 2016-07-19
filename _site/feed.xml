@@ -5,13 +5,13 @@
     <description>关于前端与设计 | 这里是 @LCL 李成龙 的个人博客，与你一起发现更大的世界。</description>
     <link>https://lcl-101.github.io/</link>
     <atom:link href="https://lcl-101.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Jul 2016 10:59:01 +0800</pubDate>
-    <lastBuildDate>Tue, 19 Jul 2016 10:59:01 +0800</lastBuildDate>
+    <pubDate>Tue, 19 Jul 2016 11:01:23 +0800</pubDate>
+    <lastBuildDate>Tue, 19 Jul 2016 11:01:23 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>JavaScript</title>
-        <description>&lt;h1&gt;实例：12个你未必知道的JavaScript技巧&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;javascript&quot;&gt;实例：12个你未必知道的JavaScript技巧&lt;/h1&gt;
 &lt;p&gt;实例：12个你未必知道的JavaScript技巧&lt;/p&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;使用!!操作符转换布尔值&lt;/h2&gt;
@@ -19,16 +19,11 @@
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 function Account(cash) {
-    this.cash = cash;    
-    this.hasMoney = !!cash;
+    this.cash = cash;    this.hasMoney = !!cash;
 }
 var account = new Account(100.50);
-console.log(account.cash); 
-// 100.50console.log(account.hasMoney); 
-// truevar emptyAccount = new Account(0);
-console.log(emptyAccount.cash); 
-// 0console.log(emptyAccount.hasMoney); 
-// false
+console.log(account.cash); // 100.50console.log(account.hasMoney); // truevar emptyAccount = new Account(0);
+console.log(emptyAccount.cash); // 0console.log(emptyAccount.hasMoney); // false
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -44,17 +39,14 @@ console.log(emptyAccount.cash);
 function toNumber(strNumber) {
     return +strNumber;
 }
-console.log(toNumber(&quot;1234&quot;)); 
-// 1234console.log(toNumber(&quot;ACB&quot;)); 
-// NaN
+console.log(toNumber(&quot;1234&quot;)); // 1234console.log(toNumber(&quot;ACB&quot;)); // NaN
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;这个也适用于&lt;code class=&quot;highlighter-rouge&quot;&gt;Date&lt;/code&gt;，在本例中，它将返回的是时间戳数字&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.log(+new Date()) 
-// 1461288164385
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.log(+new Date()) // 1461288164385
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -97,16 +89,11 @@ user &amp;amp;&amp;amp; user.login();
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 function User(name, age) {
-    this.name = name || &quot;Oliver Queen&quot;;    
-    this.age = age || 27;
+    this.name = name || &quot;Oliver Queen&quot;;    this.age = age || 27;
 }
 var user1 = new User();
-console.log(user1.name); 
-// Oliver Queenconsole.log(user1.age); 
-// 27var user2 = new User(&quot;Barry Allen&quot;, 25);
-console.log(user2.name); 
-// Barry Allenconsole.log(user2.age); 
-// 25
+console.log(user1.name); // Oliver Queenconsole.log(user1.age); // 27var user2 = new User(&quot;Barry Allen&quot;, 25);
+console.log(user2.name); // Barry Allenconsole.log(user2.age); // 25
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -171,10 +158,7 @@ if (&#39;querySelector&#39; in document) {
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 var array = [1,2,3,4,5,6];
-console.log(array.slice(-1)); 
-// [6]console.log(array.slice(-2)); 
-// [5,6]console.log(array.slice(-3)); 
-// [4,5,6]
+console.log(array.slice(-1)); // [6]console.log(array.slice(-2)); // [5,6]console.log(array.slice(-3)); // [4,5,6]
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -187,12 +171,8 @@ console.log(array.slice(-1));
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 var array = [1,2,3,4,5,6];
-console.log(array.length); 
-// 6array.length = 3;
-console.log(array.length); 
-// 3console.log(array);
- // [1,2,3]
-替换所有
+console.log(array.length); // 6array.length = 3;
+console.log(array.length); // 3console.log(array); // [1,2,3]
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -218,8 +198,7 @@ console.log(string.replace(/hn/, &quot;ana&quot;)); // &quot;joana john&quot;con
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 var array1 = [1,2,3];var array2 = [4,5,6];
-console.log(array1.concat(array2)); 
-// [1,2,3,4,5,6];
+console.log(array1.concat(array2)); // [1,2,3,4,5,6];
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -228,8 +207,7 @@ console.log(array1.concat(array2));
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 var array1 = [1,2,3];var array2 = [4,5,6];
-console.log(array1.push.apply(array1, array2)); 
-// [1,2,3,4,5,6];
+console.log(array1.push.apply(array1, array2)); // [1,2,3,4,5,6];
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -240,10 +218,7 @@ console.log(array1.push.apply(array1, array2));
 &lt;p&gt;如果你运行&lt;code class=&quot;highlighter-rouge&quot;&gt;document.querySelectorAll(“p”)&lt;/code&gt;函数时，它可能返回&lt;code class=&quot;highlighter-rouge&quot;&gt;DOM&lt;/code&gt;元素的数组，也就是&lt;code class=&quot;highlighter-rouge&quot;&gt;NodeList&lt;/code&gt;对象。但这个对象不具有数组的函数功能，比如&lt;code class=&quot;highlighter-rouge&quot;&gt;sort()&lt;/code&gt;、&lt;code class=&quot;highlighter-rouge&quot;&gt;reduce()&lt;/code&gt;、&lt;code class=&quot;highlighter-rouge&quot;&gt;map()&lt;/code&gt;、&lt;code class=&quot;highlighter-rouge&quot;&gt;filter()&lt;/code&gt;等。为了让这些原生的数组函数功能也能用于其上面，需要将节点列表转换成数组。可以使用&lt;code class=&quot;highlighter-rouge&quot;&gt;[].slice.call(elements)&lt;/code&gt;来实现：&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-var elements = document.querySelectorAll(&quot;p&quot;); 
-// NodeListvar arrayElements = [].slice.call(elements); 
-// Now the NodeList is an arrayvar arrayElements = Array.from(elements); 
-// This is another way of converting NodeList to Array
+var elements = document.querySelectorAll(&quot;p&quot;); // NodeListvar arrayElements = [].slice.call(elements); // Now the NodeList is an arrayvar arrayElements = Array.from(elements); // This is another way of converting NodeList to Array
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -254,8 +229,7 @@ var elements = document.querySelectorAll(&quot;p&quot;);
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 var list = [1,2,3];
-console.log(list.sort(function() { Math.random() - 0.5 })); 
-// [2,1,3]
+console.log(list.sort(function() { Math.random() - 0.5 })); // [2,1,3]
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
