@@ -5,13 +5,15 @@
     <description>关于前端与设计 | 这里是 @LCL 李成龙 的个人博客，与你一起发现更大的世界。</description>
     <link>https://lcl-101.github.io/</link>
     <atom:link href="https://lcl-101.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Jul 2016 13:54:32 +0800</pubDate>
-    <lastBuildDate>Thu, 21 Jul 2016 13:54:32 +0800</lastBuildDate>
+    <pubDate>Thu, 21 Jul 2016 13:56:55 +0800</pubDate>
+    <lastBuildDate>Thu, 21 Jul 2016 13:56:55 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>note</title>
-        <description>&lt;p&gt;##保存两位小数&lt;/p&gt;
+        <description>&lt;p&gt;这里会放一些平时经常用的一些js,html,css等的方法,和动画.&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;保存两位小数&lt;/h2&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 function changeTwoDecimal(x)
@@ -28,7 +30,7 @@ function changeTwoDecimal(x)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;##单词换行&lt;/p&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;单词换行&lt;/h2&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 word-break:break-all;
