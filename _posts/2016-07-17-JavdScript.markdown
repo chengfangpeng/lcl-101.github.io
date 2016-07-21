@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "JavaScript"
+title:      "你不知道的JavaScript12个小技巧"
 date:       2016-07-17 11:00:00
 author:     "lcl"
 header-img: "img/post-bg-re-vs-ng2.jpg"

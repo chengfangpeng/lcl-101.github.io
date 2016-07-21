@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "note"
+title:      "note(放一些有用的小技巧)"
 date:       2016-07-21 1:50:00
 author:     "lcl"
 header-img: "img/post-bg-alitrip.jpg"
