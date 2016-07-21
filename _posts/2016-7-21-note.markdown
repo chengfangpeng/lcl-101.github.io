@@ -6,7 +6,7 @@ author:     "lcl"
 header-img: "img/post-bg-alitrip.jpg"
 catalog: true
 tags:
-    - javascript html
+    - javascript html css
 ---
 
 这里会放一些平时经常用的一些js,html,css等的方法,和动画.
