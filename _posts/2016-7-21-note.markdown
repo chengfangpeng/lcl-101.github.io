@@ -3,7 +3,7 @@ layout:     post
 title:      "JavaScript"
 date:       2016-07-21 1:50:00
 author:     "lcl"
-header-img: "img/post-bg-re-vs-ng2.jpg"
+header-img: "img/post-bg-alitrip.jpg"
 catalog: true
 tags:
     - javascript html
