@@ -13,7 +13,7 @@ tags:
 
 这里会放一些平时经常用的一些js,html,css等的方法,和动画.
 
-<div style='font-size:18px;color:#504f4f;'>js部分</div>
+<div style='font-size:40px;color:#8a6d3b;font-weight: bold;'>js部分</div>
 
 ## 保存两位小数
 
@@ -64,7 +64,7 @@ if( !('placeholder' in document.createElement('input')) ){
     
 ```
 
-<div style='font-size:18px;color:#504f4f;'>css部分</div>
+<div style='font-size:40px;color:#8a6d3b;font-weight: bold;'>css部分</div>
 
 ## 单词换行
 
