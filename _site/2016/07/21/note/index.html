@@ -196,6 +196,8 @@
 
 				<p>这里会放一些平时经常用的一些js,html,css等的方法,和动画.</p>
 
+<div style="font-size:18px;color:#504f4f;">js部分</div>
+
 <h2 id="section">保存两位小数</h2>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>
@@ -209,15 +211,6 @@ function changeTwoDecimal(x)
     f_x = Math.round(f_x *100)/100;
     return f_x;
 }
-
-</code></pre>
-</div>
-
-<h2 id="section-1">单词换行</h2>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>
-word-break:break-all;
-word-wrap:break-word;
 
 </code></pre>
 </div>
@@ -254,6 +247,65 @@ if( !('placeholder' in document.createElement('input')) ){
 </code></pre>
 </div>
 
+<div style="font-size:18px;color:#504f4f;">css部分</div>
+
+<h2 id="section-1">单词换行</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>
+word-break:break-all;
+word-wrap:break-word;
+
+</code></pre>
+</div>
+
+<h2 id="section-2">垂直剧中</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    父元素中:
+    
+    display:-moz-box;
+    display:-webkit-box;
+    display:box;
+    -moz-box-orient:vertical;
+    -webkit-box-orient:vertical;
+    box-orient:vertical;
+
+    display: -webkit-flex;
+    display: flex;
+
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+
+    子元素中:
+    
+     -webkit-flex: 10;
+     -moz-flex: 10;
+     -ms-flex: 10;
+     -o-flex: 10;
+     flex: 10;
+    
+     -webkit-box-flex:10;
+     -moz-box-flex:10;
+     box-flex:10;
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     /*-webkit-box-pack: center;*/
+     /*-ms-flex-pack: center;*/
+     /*-webkit-justify-content: center;*/
+     /*justify-content: center;*/
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+        
+</code></pre>
+</div>
+
 
                 <hr>
 
@@ -268,12 +320,12 @@ if( !('placeholder' in document.createElement('input')) ){
                     data-images="https://lcl-101.github.io/img/post-bg-alitrip.jpg"
                     data-content="这里会放一些平时经常用的一些js,html,css等的方法,和动画.
 
+js部分
+
 保存两位小数
 
 
-function changeTwoDecimal(x)
-{
- ... | 李成龙的博客 | Lcl Blog " >
+function changeTwoDecimal(... | 李成龙的博客 | Lcl Blog " >
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
                         <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>

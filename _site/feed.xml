@@ -5,13 +5,15 @@
     <description>关于前端与设计 | 这里是 @LCL 李成龙 的个人博客，与你一起发现更大的世界。</description>
     <link>https://lcl-101.github.io/</link>
     <atom:link href="https://lcl-101.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Jul 2016 15:37:49 +0800</pubDate>
-    <lastBuildDate>Thu, 21 Jul 2016 15:37:49 +0800</lastBuildDate>
+    <pubDate>Tue, 26 Jul 2016 15:18:30 +0800</pubDate>
+    <lastBuildDate>Tue, 26 Jul 2016 15:18:30 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>note(放一些有用的小技巧)</title>
         <description>&lt;p&gt;这里会放一些平时经常用的一些js,html,css等的方法,和动画.&lt;/p&gt;
+
+&lt;div style=&quot;font-size:18px;color:#504f4f;&quot;&gt;js部分&lt;/div&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;保存两位小数&lt;/h2&gt;
 
@@ -26,15 +28,6 @@ function changeTwoDecimal(x)
     f_x = Math.round(f_x *100)/100;
     return f_x;
 }
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;单词换行&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-word-break:break-all;
-word-wrap:break-word;
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -68,6 +61,65 @@ if( !(&#39;placeholder&#39; in document.createElement(&#39;input&#39;)) ){
         });
 }
     
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;font-size:18px;color:#504f4f;&quot;&gt;css部分&lt;/div&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;单词换行&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+word-break:break-all;
+word-wrap:break-word;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;垂直剧中&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    父元素中:
+    
+    display:-moz-box;
+    display:-webkit-box;
+    display:box;
+    -moz-box-orient:vertical;
+    -webkit-box-orient:vertical;
+    box-orient:vertical;
+
+    display: -webkit-flex;
+    display: flex;
+
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+
+    子元素中:
+    
+     -webkit-flex: 10;
+     -moz-flex: 10;
+     -ms-flex: 10;
+     -o-flex: 10;
+     flex: 10;
+    
+     -webkit-box-flex:10;
+     -moz-box-flex:10;
+     box-flex:10;
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     /*-webkit-box-pack: center;*/
+     /*-ms-flex-pack: center;*/
+     /*-webkit-justify-content: center;*/
+     /*justify-content: center;*/
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+        
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
