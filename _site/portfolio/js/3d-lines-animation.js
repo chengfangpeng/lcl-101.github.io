@@ -83,8 +83,8 @@ var mouseX = 0, mouseY = 0,
                 scene.add( line );
 
                 document.addEventListener( 'mousemove', onDocumentMouseMove, false );
-                //document.addEventListener( 'touchstart', onDocumentTouchStart, false );
-                //document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+                document.addEventListener( 'touchstart', onDocumentTouchStart, false );
+                document.addEventListener( 'touchmove', onDocumentTouchMove, false );
 
                 //
 
@@ -117,7 +117,7 @@ var mouseX = 0, mouseY = 0,
 
                 if ( event.touches.length > 1 ) {
 
-                    event.preventDefault();
+                    //event.preventDefault();
 
                     mouseX = (event.touches[ 0 ].pageX - windowHalfX) * 0.7;
                     mouseY = (event.touches[ 0 ].pageY - windowHalfY) * 0.7;
@@ -130,7 +130,7 @@ var mouseX = 0, mouseY = 0,
 
                 if ( event.touches.length == 1 ) {
 
-                    event.preventDefault();
+                    //event.preventDefault();
 
                     mouseX = event.touches[ 0 ].pageX - windowHalfX;
                     mouseY = event.touches[ 0 ].pageY - windowHalfY;
