@@ -133,12 +133,12 @@ var mouseX = 0, mouseY = 0,
             function onDocumentTouchStart( event ) {
                 var aa=100;
                 setInterval(function(){
+                    aa++;
                     if(aa>=1000){
                         mouseX = (aa + windowHalfX) * 0.7;
                         mouseY = (aa + windowHalfY) * 0.7;
-                        aa--;
+                        aa=100;
                     }else {
-                        aa++;
                         mouseX = (aa - windowHalfX) * 0.7;
                         mouseY = (aa - windowHalfY) * 0.7;
                     }
