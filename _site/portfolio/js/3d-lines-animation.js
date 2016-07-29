@@ -134,11 +134,14 @@ var mouseX = 0, mouseY = 0,
                 var aa=100;
                 setInterval(function(){
                     aa++;
-                    //if(aa==800){
-                    //    aa=100;
-                    //}
-                    mouseX = (aa - windowHalfX) * 0.7;
-                    mouseY = (aa - windowHalfY) * 0.7;
+                    if(aa>=1000){
+                        mouseX = (aa - windowHalfX) * 0.7;
+                        mouseY = (aa - windowHalfY) * 0.7;
+                        aa=100;
+                    }else {
+                        mouseX = (aa - windowHalfX) * 0.7;
+                        mouseY = (aa - windowHalfY) * 0.7;
+                    }
                 },50);
                 //if ( event.touches.length > 1 ) {
                 //
