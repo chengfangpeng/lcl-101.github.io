@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/portfolio/js/3d-lines-animation.js" afterPath="$PROJECT_DIR$/_site/portfolio/js/3d-lines-animation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/js/3d-lines-animation.js" afterPath="$PROJECT_DIR$/portfolio/js/3d-lines-animation.js" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
@@ -40,8 +37,8 @@
       <file leaf-file-name="3d-lines-animation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/js/3d-lines-animation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20826952">
-              <caret line="136" column="29" selection-start-line="136" selection-start-column="29" selection-end-line="136" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.36447167">
+              <caret line="142" column="38" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -753,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/js/3d-lines-animation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20826952">
-          <caret line="136" column="29" selection-start-line="136" selection-start-column="29" selection-end-line="136" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.36447167">
+          <caret line="142" column="38" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
           <folding />
         </state>
       </provider>
