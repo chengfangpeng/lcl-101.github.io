@@ -5,13 +5,17 @@
     <description>关于前端与设计 | 这里是 @LCL 李成龙 的个人博客，与你一起发现更大的世界。</description>
     <link>https://lcl-101.github.io/</link>
     <atom:link href="https://lcl-101.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Jul 2016 11:49:43 +0800</pubDate>
-    <lastBuildDate>Sun, 31 Jul 2016 11:49:43 +0800</lastBuildDate>
+    <pubDate>Sun, 31 Jul 2016 11:50:55 +0800</pubDate>
+    <lastBuildDate>Sun, 31 Jul 2016 11:50:55 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>note(放一些有用的小技巧)</title>
-        <description>&lt;p&gt;这里会放一些平时经常用的一些js,html,css等的方法,和动画.&lt;/p&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“It’s my style. ”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这里会放一些平时经常用的一些js,html,css等的方法,和动画.&lt;/p&gt;
 
 &lt;div style=&quot;font-size:28px;color:#8a6d3b;font-weight: bold;&quot;&gt;js部分&lt;/div&gt;
 
@@ -137,8 +141,10 @@ word-wrap:break-word;
       </item>
     
       <item>
-        <title>你不知道的JavaScript12个小技巧</title>
-        <description>&lt;h2 id=&quot;javascript&quot;&gt;实例：12个你未必知道的JavaScript技巧&lt;/h2&gt;
+        <title>12个你未必知道的JavaScript技巧</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“It’s my style. ”&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;使用!!操作符转换布尔值&lt;/h3&gt;
 

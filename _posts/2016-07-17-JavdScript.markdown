@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "你不知道的JavaScript12个小技巧"
+title:      "12个你未必知道的JavaScript技巧"
 date:       2016-07-17 11:00:00
 author:     "lcl"
 header-img: "img/post-bg-re-vs-ng2.jpg"
@@ -9,9 +9,7 @@ tags:
     - javascript
 ---
 
-
-## 实例：12个你未必知道的JavaScript技巧
-
+> “It's my style. ”
 
 ### 使用!!操作符转换布尔值
 
