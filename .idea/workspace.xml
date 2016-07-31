@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/9.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-7-21-note.markdown" afterPath="$PROJECT_DIR$/_posts/2016-7-21-note.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2016/07/21/note/index.html" afterPath="$PROJECT_DIR$/_site/2016/07/21/note/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
@@ -35,12 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2016-7-21-note.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016-7-21-note.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-7-21-note.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.9323583">
-                <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <first_editor vertical-scroll-proportion="0.06215722">
+                <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -51,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1295681">
-              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -778,11 +770,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-7-21-note.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.9323583">
-            <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <first_editor vertical-scroll-proportion="0.06215722">
+            <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
             <folding />
           </first_editor>
           <second_editor />
@@ -790,14 +790,6 @@
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1295681">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>

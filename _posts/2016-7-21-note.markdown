@@ -1,9 +1,9 @@
 ---
-layout:     post
+layout:     keynote
+iframe:     "http://yanshuo.io/assets/player/?deck=579d729579bc4400547b32ed"
 title:      "note(放一些有用的小技巧)"
 date:       2016-07-21 1:50:00
 author:     "lcl"
-header-img: "img/post-bg-alitrip.jpg"
 catalog: true
 tags:
     - javascript 

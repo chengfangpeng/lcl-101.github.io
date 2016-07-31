@@ -145,42 +145,47 @@
 
     <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="/img/post-bg-alitrip.jpg" width="0" height="0"> -->
+<!-- <img src="/img/home-bg.jpg" width="0" height="0"> -->
 
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
-        position: relative;
-        background-image: url('/img/post-bg-alitrip.jpg')
+        /*background-image: url('/img/home-bg.jpg')*/
+        height: 500px;
+        overflow: hidden;
     }
-
-    
+    header iframe{
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
 </style>
 <header class="intro-header" >
-    <div class="header-mask"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <div class="tags">
+    <iframe src="http://yanshuo.io/assets/player/?deck=579d729579bc4400547b32ed"/>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <div class="tags">
+                            
+                            <a class="tag" href="/tags/#javascript" title="javascript">javascript</a>
+                            
+                            <a class="tag" href="/tags/#html" title="html">html</a>
+                            
+                            <a class="tag" href="/tags/#css" title="css">css</a>
+                            
+                        </div>
+                        <h1>note(放一些有用的小技巧)</h1>
                         
-                        <a class="tag" href="/tags/#javascript" title="javascript">javascript</a>
                         
-                        <a class="tag" href="/tags/#html" title="html">html</a>
+                        <h2 class="subheading"></h2>
                         
-                        <a class="tag" href="/tags/#css" title="css">css</a>
-                        
+                        <span class="meta">Posted by lcl on July 21, 2016</span>
                     </div>
-                    <h1>note(放一些有用的小技巧)</h1>
-                    
-                    
-                    <h2 class="subheading"></h2>
-                    
-                    <span class="meta">Posted by lcl on July 21, 2016</span>
                 </div>
             </div>
         </div>
-    </div>
+    </iframe>
 </header>
 
 <!-- Post Content -->
@@ -188,11 +193,10 @@
     <div class="container">
         <div class="row">
 
-    <!-- Post Container -->
-            <div class="
+            <!-- Post Container -->
+            <div class="post-container
                 col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                post-container">
+                col-md-10 col-md-offset-1 ">
 
 				<p>这里会放一些平时经常用的一些js,html,css等的方法,和动画.</p>
 
@@ -314,10 +318,8 @@ word-wrap:break-word;
                 </style>
                 <div class="ds-share"
                     style="text-align: right"
-                    data-thread-key="/2016/07/21/note"
-                    data-title="note(放一些有用的小技巧)"
-                    data-url="https://lcl-101.github.io/2016/07/21/note/"
-                    data-images="https://lcl-101.github.io/img/post-bg-alitrip.jpg"
+                    data-thread-key="/2016/07/21/note" data-title="note(放一些有用的小技巧)"
+                    data-images="https://lcl-101.github.io/img/home-bg.jpg"
                     data-content="这里会放一些平时经常用的一些js,html,css等的方法,和动画.
 
 js部分
@@ -325,7 +327,8 @@ js部分
 保存两位小数
 
 
-function changeTwoDecimal(... | 李成龙的博客 | Lcl Blog " >
+function changeTwoDecimal(... | Hux Blog，@Hux黄玄 的个人博客"
+                    data-url="https://lcl-101.github.io/2016/07/21/note/">
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
                         <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
@@ -338,7 +341,7 @@ function changeTwoDecimal(... | 李成龙的博客 | Lcl Blog " >
                     </div>
                 <hr>
                 </div>
-                <!-- 多说 Share end-->
+                <!-- 多少 Share end-->
                 
 
 
@@ -369,30 +372,12 @@ function changeTwoDecimal(... | 李成龙的博客 | Lcl Blog " >
 
                 
 
-            </div>  
-
-    <!-- Side Catalog Container -->
-        
-            <div class="
-                col-lg-2 col-lg-offset-0
-                visible-lg-block
-                sidebar-container
-                catalog-container">
-                <div class="side-catalog">
-                    <hr class="hidden-sm hidden-xs">
-                    <h5>
-                        <a class="catalog-toggle" href="#">CATALOG</a>
-                    </h5>
-                    <ul class="catalog-body"></ul>
-                </div>
             </div>
-        
 
-    <!-- Sidebar Container -->
-            <div class="
+            <!-- Sidebar Container -->
+            <div class="sidebar-container
                 col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
+                col-md-10 col-md-offset-1 ">
 
                 <!-- Featured Tags -->
                 
@@ -400,20 +385,20 @@ function changeTwoDecimal(... | 李成龙的博客 | Lcl Blog " >
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
-        				
+                        
                             
-        				
+                        
                             
-                				<a href="/tags/#javascript" title="javascript" rel="2">
+                                <a href="/tags/#javascript" title="javascript" rel="2">
                                     javascript
                                 </a>
                             
-        				
+                        
                             
-        				
+                        
                             
-        				
-        			</div>
+                        
+                    </div>
                 </section>
                 
 
@@ -430,6 +415,28 @@ function changeTwoDecimal(... | 李成龙的博客 | Lcl Blog " >
     </div>
 </article>
 
+<!-- resize header to fullscreen keynotes -->
+<script>
+    var $header = document.getElementsByTagName("header")[0];
+    function resize(){
+        /*
+         * leave 85px to both
+         * - told/imply users that there has more content below
+         * - let user can scroll in mobile device, seeing the keynote-view is unscrollable
+         */
+        $header.style.height = (window.innerHeight-85) + 'px';
+    }
+    document.addEventListener('DOMContentLoaded', function(){
+        resize();
+    })
+    window.addEventListener('load', function(){
+        resize();
+    })
+    window.addEventListener('resize', function(){
+        resize();
+    })
+    resize();
+</script>
 
 
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
@@ -469,7 +476,7 @@ function changeTwoDecimal(... | 李成龙的博客 | Lcl Blog " >
 </script>
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
-    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
           visible: 'always',
           placement: 'right',
@@ -489,6 +496,7 @@ function changeTwoDecimal(... | 李成龙的博客 | Lcl Blog " >
         }
     }
 </style>
+
 
 
     <!-- Footer -->
