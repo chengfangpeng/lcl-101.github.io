@@ -13,9 +13,11 @@ tags:
 
 这里会放一些平时经常用的一些js,html,css等的方法,和动画.
 
-<div style='font-size:40px;color:#8a6d3b;font-weight: bold;'>js部分</div>
+<div style='font-size:28px;color:#8a6d3b;font-weight: bold;'>js部分</div>
 
-## 保存两位小数
+
+### 保存两位小数
+
 
 ```
 
@@ -32,7 +34,9 @@ function changeTwoDecimal(x)
 
 ```
 
-## placeholder兼容到ie8
+
+### placeholder兼容到ie8
+
 
 ```
 
@@ -64,9 +68,11 @@ if( !('placeholder' in document.createElement('input')) ){
     
 ```
 
+
 <div style='font-size:40px;color:#8a6d3b;font-weight: bold;'>css部分</div>
 
-## 单词换行
+### 单词换行
+
 
 ```
 
@@ -75,7 +81,9 @@ word-wrap:break-word;
 
 ```
 
-## 垂直剧中
+
+### 垂直剧中
+
 
 ```
     父元素中:
