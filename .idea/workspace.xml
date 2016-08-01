@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hux-blog.css" afterPath="$PROJECT_DIR$/css/hux-blog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/embed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +26,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hux-blog.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/hux-blog.css">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.99271405">
-              <caret line="1167" column="1" selection-start-line="1167" selection-start-column="1" selection-end-line="1167" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.9739583">
+              <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="embed.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/embed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="567" column="948" selection-start-line="567" selection-start-column="931" selection-end-line="567" selection-end-column="948" />
+              <folding>
+                <marker date="1470019782000" expanded="true" signature="8018:8030" placeholder="..." />
+                <marker date="1470019782000" expanded="true" signature="23195:23231" placeholder="..." />
+                <marker date="1470019782000" expanded="true" signature="28623:28633" placeholder="..." />
+                <marker date="1470019782000" expanded="true" signature="28791:28809" placeholder="..." />
+                <marker date="1470019782000" expanded="true" signature="31032:31268" placeholder="..." />
+                <marker date="1470019782000" expanded="true" signature="38551:38583" placeholder="..." />
+                <marker date="1470019782000" expanded="true" signature="39328:39368" placeholder="..." />
+                <marker date="1470019782000" expanded="true" signature="42881:42897" placeholder="..." />
+                <marker date="1470019782000" expanded="true" signature="43071:43090" placeholder="..." />
+                <marker date="1470019782000" expanded="false" signature="86897:86911" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="25" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -47,7 +80,6 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/css/hux-blog.min.css" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/_site/2015/01/29/hello-2015/index.html" />
         <option value="$PROJECT_DIR$/_posts/2014-08-16-miui6.markdown" />
         <option value="$PROJECT_DIR$/aa.html" />
@@ -70,6 +102,8 @@
         <option value="$PROJECT_DIR$/_posts/2016-07-17-JavdScript.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-7-21-note.markdown" />
         <option value="$PROJECT_DIR$/css/hux-blog.css" />
+        <option value="$PROJECT_DIR$/js/embed.js" />
+        <option value="$PROJECT_DIR$/about.html" />
       </list>
     </option>
   </component>
@@ -388,13 +422,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/portfolio/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-7-21-note.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -661,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6970228">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/js/modernizr.custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028475711">
@@ -722,13 +742,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12718205">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-7-21-note.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -769,8 +782,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/hux-blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.99271405">
-          <caret line="1167" column="1" selection-start-line="1167" selection-start-column="1" selection-end-line="1167" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.7957276">
+          <caret line="1170" column="14" selection-start-line="1170" selection-start-column="14" selection-end-line="1170" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/embed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="567" column="948" selection-start-line="567" selection-start-column="931" selection-end-line="567" selection-end-column="948" />
+          <folding>
+            <marker date="1470019782000" expanded="true" signature="8018:8030" placeholder="..." />
+            <marker date="1470019782000" expanded="true" signature="23195:23231" placeholder="..." />
+            <marker date="1470019782000" expanded="true" signature="28623:28633" placeholder="..." />
+            <marker date="1470019782000" expanded="true" signature="28791:28809" placeholder="..." />
+            <marker date="1470019782000" expanded="true" signature="31032:31268" placeholder="..." />
+            <marker date="1470019782000" expanded="true" signature="38551:38583" placeholder="..." />
+            <marker date="1470019782000" expanded="true" signature="39328:39368" placeholder="..." />
+            <marker date="1470019782000" expanded="true" signature="42881:42897" placeholder="..." />
+            <marker date="1470019782000" expanded="true" signature="43071:43090" placeholder="..." />
+            <marker date="1470019782000" expanded="false" signature="86897:86911" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9739583">
+          <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
           <folding />
         </state>
       </provider>
