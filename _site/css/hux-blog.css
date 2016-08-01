@@ -1166,7 +1166,7 @@ img::-moz-selection {
 #ds-smilies-tooltip ul.ds-smilies-tabs {
   height: 139px!important;
 }
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:490px) {
   #ds-smilies-tooltip {
     width: 84%!important;
   }
