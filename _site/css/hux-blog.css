@@ -1168,6 +1168,6 @@ img::-moz-selection {
 }
 @media only screen and (max-width:420px) {
   #ds-smilies-tooltip {
-    width: 84px!important;
+    width: 84%!important;
   }
 }
