@@ -1163,3 +1163,6 @@ img::-moz-selection {
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
 }
+#ds-smilies-tooltip ul.ds-smilies-tabs {
+  height: 139px;
+}
