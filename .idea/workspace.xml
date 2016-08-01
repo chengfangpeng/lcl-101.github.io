@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/embed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9739583">
-              <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.7673611">
+              <caret line="95" column="83" selection-start-line="95" selection-start-column="83" selection-end-line="95" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -817,8 +815,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9739583">
-          <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.7673611">
+          <caret line="95" column="83" selection-start-line="95" selection-start-column="83" selection-end-line="95" selection-end-column="83" />
           <folding />
         </state>
       </provider>
