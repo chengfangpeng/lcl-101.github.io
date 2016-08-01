@@ -1164,5 +1164,5 @@ img::-moz-selection {
   color: #ddd;
 }
 #ds-smilies-tooltip ul.ds-smilies-tabs {
-  height: 139px;
+  height: 139px!important;
 }
