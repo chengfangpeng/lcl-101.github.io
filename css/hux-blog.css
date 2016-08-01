@@ -1171,3 +1171,15 @@ img::-moz-selection {
     width: 84%!important;
   }
 }
+@media only screen and (max-width:400px) {
+  #ds-smilies-tooltip {
+    width: 82%!important;
+  }
+}
+@media only screen and (max-width:357px) {
+  #ds-smilies-tooltip {
+    width: 76%!important;
+  }
+}
+
+
