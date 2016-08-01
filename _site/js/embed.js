@@ -1502,7 +1502,7 @@
     //判断是否为博主
     function sskadmin(e) {
         var ssk = '';
-        if(e.user_id=='lcl-101'){
+        if(e.user_id==6304382842138788609){
             ssk = '<span class="sskadmin">博主【此处可以自定义文字】'
         }
         return ssk+"</span> ";

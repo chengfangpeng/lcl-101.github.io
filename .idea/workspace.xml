@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/portfolio/index.html" afterPath="$PROJECT_DIR$/_site/portfolio/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/embed.js" afterPath="$PROJECT_DIR$/js/embed.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/index.html" afterPath="$PROJECT_DIR$/portfolio/index.html" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
@@ -25,7 +24,39 @@
     <favorites_list name="lcl-101.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="embed.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/embed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1501" column="13" selection-start-line="1501" selection-start-column="13" selection-end-line="1501" selection-end-column="13" />
+              <folding>
+                <marker date="1470021184000" expanded="true" signature="8018:8030" placeholder="..." />
+                <marker date="1470021184000" expanded="true" signature="23195:23231" placeholder="..." />
+                <marker date="1470021184000" expanded="true" signature="28623:28633" placeholder="..." />
+                <marker date="1470021184000" expanded="true" signature="28791:28809" placeholder="..." />
+                <marker date="1470021184000" expanded="true" signature="31032:31268" placeholder="..." />
+                <marker date="1470021184000" expanded="true" signature="38551:38583" placeholder="..." />
+                <marker date="1470021184000" expanded="true" signature="39328:39368" placeholder="..." />
+                <marker date="1470021184000" expanded="true" signature="42881:42897" placeholder="..." />
+                <marker date="1470021184000" expanded="true" signature="43071:43090" placeholder="..." />
+                <marker date="1470021184000" expanded="false" signature="86897:86911" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portfolio/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63993174">
+              <caret line="138" column="93" selection-start-line="138" selection-start-column="93" selection-end-line="138" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,8 +90,8 @@
         <option value="$PROJECT_DIR$/_posts/2016-07-17-JavdScript.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-7-21-note.markdown" />
         <option value="$PROJECT_DIR$/css/hux-blog.css" />
-        <option value="$PROJECT_DIR$/js/embed.js" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/js/embed.js" />
         <option value="$PROJECT_DIR$/portfolio/index.html" />
       </list>
     </option>
@@ -343,13 +374,13 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39842632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39842632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -740,25 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/embed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36239317">
-          <caret line="569" column="46" selection-start-line="569" selection-start-column="46" selection-end-line="569" selection-end-column="46" />
-          <folding>
-            <marker date="1470019782000" expanded="true" signature="8018:8030" placeholder="..." />
-            <marker date="1470019782000" expanded="true" signature="23195:23231" placeholder="..." />
-            <marker date="1470019782000" expanded="true" signature="28623:28633" placeholder="..." />
-            <marker date="1470019782000" expanded="true" signature="28791:28809" placeholder="..." />
-            <marker date="1470019782000" expanded="true" signature="31032:31268" placeholder="..." />
-            <marker date="1470019782000" expanded="true" signature="38551:38583" placeholder="..." />
-            <marker date="1470019782000" expanded="true" signature="39328:39368" placeholder="..." />
-            <marker date="1470019782000" expanded="true" signature="42881:42897" placeholder="..." />
-            <marker date="1470019782000" expanded="true" signature="43071:43090" placeholder="..." />
-            <marker date="1470019782000" expanded="false" signature="86897:86911" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5723192">
@@ -775,10 +787,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/embed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1501" column="13" selection-start-line="1501" selection-start-column="13" selection-end-line="1501" selection-end-column="13" />
+          <folding>
+            <marker date="1470021184000" expanded="true" signature="8018:8030" placeholder="..." />
+            <marker date="1470021184000" expanded="true" signature="23195:23231" placeholder="..." />
+            <marker date="1470021184000" expanded="true" signature="28623:28633" placeholder="..." />
+            <marker date="1470021184000" expanded="true" signature="28791:28809" placeholder="..." />
+            <marker date="1470021184000" expanded="true" signature="31032:31268" placeholder="..." />
+            <marker date="1470021184000" expanded="true" signature="38551:38583" placeholder="..." />
+            <marker date="1470021184000" expanded="true" signature="39328:39368" placeholder="..." />
+            <marker date="1470021184000" expanded="true" signature="42881:42897" placeholder="..." />
+            <marker date="1470021184000" expanded="true" signature="43071:43090" placeholder="..." />
+            <marker date="1470021184000" expanded="false" signature="86897:86911" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51804125">
-          <caret line="142" column="17" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.63993174">
+          <caret line="138" column="93" selection-start-line="138" selection-start-column="93" selection-end-line="138" selection-end-column="93" />
           <folding />
         </state>
       </provider>
