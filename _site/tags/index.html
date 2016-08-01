@@ -362,6 +362,11 @@
             </div>
         </div>
     </div>
+    <a href="javascript:;" class="back-top">
+         <span class="fa-stack fa-lg">
+              <i class="fa fa-angle-double-up fa-stack-1x"></i>
+         </span>
+    </a href="javascript:;">
 </footer>
 
 <!-- jQuery -->
@@ -447,7 +452,19 @@
             e.preventDefault();
             $('.intro-header').rippleria('changeColor', 'rgba('+randInt(0,255)+','+randInt(0,255)+','+randInt(0,255)+',0.'+randInt(3,5));
         })
-    })
+    });
+    //返回顶部
+    $(window).scroll(function(){
+        var top = $('.back-top').offset().top;
+        if(top>=900){
+            $('.back-top').fadeIn();
+        }else {
+            $('.back-top').fadeOut();
+        }
+    });
+    $('.back-top').on('click',function(){
+       $('html body').animate({scrollTop:'0'},500);
+    });
 </script>
 <!-- Google Analytics -->
 
