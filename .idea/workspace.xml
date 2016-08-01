@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/embed.js" afterPath="$PROJECT_DIR$/js/embed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/index.html" afterPath="$PROJECT_DIR$/portfolio/index.html" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,32 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="embed.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/embed.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72712415">
-              <caret line="1508" column="5" selection-start-line="1508" selection-start-column="5" selection-end-line="1508" selection-end-column="5" />
-              <folding>
-                <marker date="1470021353000" expanded="true" signature="8018:8030" placeholder="..." />
-                <marker date="1470021353000" expanded="true" signature="23195:23231" placeholder="..." />
-                <marker date="1470021353000" expanded="true" signature="28623:28633" placeholder="..." />
-                <marker date="1470021353000" expanded="true" signature="28791:28809" placeholder="..." />
-                <marker date="1470021353000" expanded="true" signature="31032:31268" placeholder="..." />
-                <marker date="1470021353000" expanded="true" signature="38551:38583" placeholder="..." />
-                <marker date="1470021353000" expanded="true" signature="39328:39368" placeholder="..." />
-                <marker date="1470021353000" expanded="true" signature="42881:42897" placeholder="..." />
-                <marker date="1470021353000" expanded="true" signature="43071:43090" placeholder="..." />
-                <marker date="1470021353000" expanded="false" signature="86897:86911" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.423077">
-              <caret line="138" column="93" selection-start-line="138" selection-start-column="93" selection-end-line="138" selection-end-column="93" />
+            <state vertical-scroll-proportion="0.63993174">
+              <caret line="138" column="92" selection-start-line="138" selection-start-column="92" selection-end-line="138" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -90,8 +69,8 @@
         <option value="$PROJECT_DIR$/_posts/2016-7-21-note.markdown" />
         <option value="$PROJECT_DIR$/css/hux-blog.css" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/portfolio/index.html" />
         <option value="$PROJECT_DIR$/js/embed.js" />
+        <option value="$PROJECT_DIR$/portfolio/index.html" />
       </list>
     </option>
   </component>
@@ -786,14 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.423077">
-          <caret line="138" column="93" selection-start-line="138" selection-start-column="93" selection-end-line="138" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/embed.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72712415">
@@ -810,6 +781,14 @@
             <marker date="1470021353000" expanded="true" signature="43071:43090" placeholder="..." />
             <marker date="1470021353000" expanded="false" signature="86897:86911" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63993174">
+          <caret line="138" column="92" selection-start-line="138" selection-start-column="92" selection-end-line="138" selection-end-column="110" />
+          <folding />
         </state>
       </provider>
     </entry>
