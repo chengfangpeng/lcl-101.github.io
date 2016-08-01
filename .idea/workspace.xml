@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be916a6f-00be-4f25-9916-8f9410b268be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/index.html" afterPath="$PROJECT_DIR$/portfolio/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hux-blog.css" afterPath="$PROJECT_DIR$/css/hux-blog.css" />
     </list>
     <ignored path="lcl-101.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/portfolio/index.html">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8783542">
-              <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+            <state vertical-scroll-proportion="1.0604575">
+              <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -61,7 +62,6 @@
         <option value="$PROJECT_DIR$/portfolio/js/canvas-renderer.js" />
         <option value="$PROJECT_DIR$/portfolio/js/3d-lines-animation.js" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/portfolio/js/modernizr.custom.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/CNAME" />
@@ -69,8 +69,9 @@
         <option value="$PROJECT_DIR$/_posts/2016-7-21-note.markdown" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/js/embed.js" />
-        <option value="$PROJECT_DIR$/css/hux-blog.css" />
         <option value="$PROJECT_DIR$/portfolio/index.html" />
+        <option value="$PROJECT_DIR$/css/hux-blog.css" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -289,7 +290,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Sites/wcg" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workspace/line-wap/wcg" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -733,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5723192">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6030928">
@@ -776,18 +769,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/hux-blog.css">
+    <entry file="file://$PROJECT_DIR$/portfolio/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84794277">
-          <caret line="1180" column="13" selection-start-line="1180" selection-start-column="13" selection-end-line="1180" selection-end-column="13" />
+        <state vertical-scroll-proportion="1.4072096">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/index.html">
+    <entry file="file://$PROJECT_DIR$/css/hux-blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8783542">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        <state vertical-scroll-proportion="-0.4548969">
+          <caret line="681" column="31" selection-start-line="681" selection-start-column="0" selection-end-line="681" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0604575">
+          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
           <folding />
         </state>
       </provider>
