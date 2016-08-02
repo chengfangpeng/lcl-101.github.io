@@ -198,15 +198,13 @@
 
 <p>有时候我们需要对一个变量查检其是否存在或者检查值是否有一个有效值，如果存在就返回<code class="highlighter-rouge">true</code>值。为了做这样的验证，我们可以使用<code class="highlighter-rouge">!!</code>操作符来实现是非常的方便与简单。对于变量可以使用<code class="highlighter-rouge">!!variable</code>做检测，只要变量的值为:<code class="highlighter-rouge">0</code>、<code class="highlighter-rouge">null</code>、<code class="highlighter-rouge">""</code>、<code class="highlighter-rouge">undefined</code>或者<code class="highlighter-rouge">NaN</code>都将返回的是<code class="highlighter-rouge">false</code>，反之返回的是<code class="highlighter-rouge">true</code>。比如下面的示例：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-function Account(cash) {
-    this.cash = cash;    
-    this.hasMoney = !!cash;
-}
-var account = new Account(100.50);
-console.log(account.cash); // 100.50console.log(account.hasMoney); // truevar emptyAccount = new Account(0);
-console.log(emptyAccount.cash); // 0console.log(emptyAccount.hasMoney); // false
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">Account</span><span class="p">(</span><span class="nx">cash</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">cash</span> <span class="o">=</span> <span class="nx">cash</span><span class="p">;</span>    
+    <span class="k">this</span><span class="p">.</span><span class="nx">hasMoney</span> <span class="o">=</span> <span class="o">!!</span><span class="nx">cash</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kd">var</span> <span class="nx">account</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Account</span><span class="p">(</span><span class="mf">100.50</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">account</span><span class="p">.</span><span class="nx">cash</span><span class="p">);</span> <span class="c1">// 100.50console.log(account.hasMoney); // truevar emptyAccount = new Account(0);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">emptyAccount</span><span class="p">.</span><span class="nx">cash</span><span class="p">);</span> <span class="c1">// 0console.log(emptyAccount.hasMoney); // false</span>
 </code></pre>
 </div>
 
@@ -216,19 +214,16 @@ console.log(emptyAccount.cash); // 0console.log(emptyAccount.hasMoney); // false
 
 <p>这个技巧非常有用，其非常简单，可以交字符串数据转换成数字，不过其只适合用于字符串数据，否则将返回<code class="highlighter-rouge">NaN</code>，比如下面的示例：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-function toNumber(strNumber) {
-    return +strNumber;
-}
-console.log(toNumber("1234")); // 1234console.log(toNumber("ACB")); // NaN
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">toNumber</span><span class="p">(</span><span class="nx">strNumber</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="o">+</span><span class="nx">strNumber</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">toNumber</span><span class="p">(</span><span class="s2">"1234"</span><span class="p">));</span> <span class="c1">// 1234console.log(toNumber("ACB")); // NaN</span>
 </code></pre>
 </div>
 
 <p>这个也适用于<code class="highlighter-rouge">Date</code>，在本例中，它将返回的是时间戳数字</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>console.log(+new Date()) // 1461288164385
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="o">+</span><span class="k">new</span> <span class="nb">Date</span><span class="p">())</span> <span class="c1">// 1461288164385</span>
 </code></pre>
 </div>
 
@@ -236,27 +231,21 @@ console.log(toNumber("1234")); // 1234console.log(toNumber("ACB")); // NaN
 
 <p>如果你有一段这样的代码：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-if (conected) {
-    login();
-}
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="nx">conected</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">login</span><span class="p">();</span>
+<span class="p">}</span>
 </code></pre>
 </div>
 
 <p>你也可以将变量简写，并且使用<code class="highlighter-rouge">&amp;&amp;</code>和函数连接在一起，比如上面的示例，可以简写成这样：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-conected &amp;&amp; login();
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="nx">conected</span> <span class="o">&amp;&amp;</span> <span class="nx">login</span><span class="p">();</span>
 </code></pre>
 </div>
 
 <p>如果一些属性或函数存在于一个对象中，你也可以这样做检测，如下面的代码所示：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-user &amp;&amp; user.login();
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="nx">user</span> <span class="o">&amp;&amp;</span> <span class="nx">user</span><span class="p">.</span><span class="nx">login</span><span class="p">();</span>
 </code></pre>
 </div>
 
@@ -264,14 +253,12 @@ user &amp;&amp; user.login();
 
 <p>在ES6中有默认参数这一特性。为了在老版本的浏览器中模拟这一特性，可以使用<code class="highlighter-rouge">||</code>操作符，并且将将默认值当做第二个参数传入。如果第一个参数返回的值为<code class="highlighter-rouge">false</code>，那么第二个值将会认为是一个默认值。如下面这个示例：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-function User(name, age) {
-    this.name = name || "Oliver Queen";    this.age = age || 27;
-}
-var user1 = new User();
-console.log(user1.name); // Oliver Queenconsole.log(user1.age); // 27var user2 = new User("Barry Allen", 25);
-console.log(user2.name); // Barry Allenconsole.log(user2.age); // 25
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">User</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">age</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span> <span class="o">||</span> <span class="s2">"Oliver Queen"</span><span class="p">;</span>    <span class="k">this</span><span class="p">.</span><span class="nx">age</span> <span class="o">=</span> <span class="nx">age</span> <span class="o">||</span> <span class="mi">27</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kd">var</span> <span class="nx">user1</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">User</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">user1</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span> <span class="c1">// Oliver Queenconsole.log(user1.age); // 27var user2 = new User("Barry Allen", 25);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">user2</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span> <span class="c1">// Barry Allenconsole.log(user2.age); // 25</span>
 </code></pre>
 </div>
 
@@ -279,31 +266,25 @@ console.log(user2.name); // Barry Allenconsole.log(user2.age); // 25
 
 <p>这个技巧很简单，这个在处理一个很大的数组循环时，对性能影响将是非常大的。基本上，大家都会写一个这样的同步迭代的数组：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-for(var i = 0; i &lt; array.length; i++) {
-    console.log(array[i]);
-}
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">array</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">array</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+<span class="p">}</span>
 </code></pre>
 </div>
 
 <p>如果是一个小型数组，这样做很好，如果你要处理的是一个大的数组，这段代码在每次迭代都将会重新计算数组的大小，这将会导致一些延误。为了避免这种现象出现，可以将<code class="highlighter-rouge">array.length</code>做一个缓存：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-var length = array.length;for(var i = 0; i &lt; length; i++) {
-    console.log(array[i]);
-}
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">length</span> <span class="o">=</span> <span class="nx">array</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">array</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+<span class="p">}</span>
 </code></pre>
 </div>
 
 <p>你也可以写在这样：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-for(var i = 0, length = array.length; i &lt; length; i++) {
-    console.log(array[i]);
-}
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">length</span> <span class="o">=</span> <span class="nx">array</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">array</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+<span class="p">}</span>
 </code></pre>
 </div>
 
@@ -311,13 +292,11 @@ for(var i = 0, length = array.length; i &lt; length; i++) {
 
 <p>当你需要检测一些属性是否存在，避免运行未定义的函数或属性时，这个小技巧就显得很有用。如果你打算定些一些跨兼容的浏览器代码，你也可能会用到这个小技巧。例如，你想使用<code class="highlighter-rouge">document.querySelector()</code>来选择一个<code class="highlighter-rouge">id</code>，并且让它能兼容IE6浏览器，但是在IE6浏览器中这个函数是不存在的，那么使用这个操作符来检测这个函数是否存在就显得非常的有用，如下面的示例：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-if ('querySelector' in document) {
-    document.querySelector("#id");
-} else {
-    document.getElementById("id");
-}
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="s1">'querySelector'</span> <span class="k">in</span> <span class="nb">document</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">"#id"</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">"id"</span><span class="p">);</span>
+<span class="p">}</span>
 </code></pre>
 </div>
 
@@ -327,10 +306,8 @@ if ('querySelector' in document) {
 
 <p><code class="highlighter-rouge">Array.prototype.slice(begin,end)</code>用来获取<code class="highlighter-rouge">begin</code>和<code class="highlighter-rouge">end</code>之间的数组元素。如果你不设置<code class="highlighter-rouge">end</code>参数，将会将数组的默认长度值当作<code class="highlighter-rouge">end</code>值。但有些同学可能不知道这个函数还可以接受负值作为参数。如果你设置一个负值作为<code class="highlighter-rouge">begin</code>的值，那么你可以获取数组的最后一个元素。如：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-var array = [1,2,3,4,5,6];
-console.log(array.slice(-1)); // [6]console.log(array.slice(-2)); // [5,6]console.log(array.slice(-3)); // [4,5,6]
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">array</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">array</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">));</span> <span class="c1">// [6]console.log(array.slice(-2)); // [5,6]console.log(array.slice(-3)); // [4,5,6]</span>
 </code></pre>
 </div>
 
@@ -338,11 +315,9 @@ console.log(array.slice(-1)); // [6]console.log(array.slice(-2)); // [5,6]consol
 
 <p>这个小技巧主要用来锁定数组的大小，如果用于删除数组中的一些元素来说，是非常有用的。例如，你的数组有<code class="highlighter-rouge">10</code>个元素，但你只想只要前五个元素，那么你可以通过<code class="highlighter-rouge">array.length=5</code>来截断数组。如下面这个示例：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-var array = [1,2,3,4,5,6];
-console.log(array.length); // 6array.length = 3;
-console.log(array.length); // 3console.log(array); // [1,2,3]
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">array</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">array</span><span class="p">.</span><span class="nx">length</span><span class="p">);</span> <span class="c1">// 6array.length = 3;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">array</span><span class="p">.</span><span class="nx">length</span><span class="p">);</span> <span class="c1">// 3console.log(array); // [1,2,3]</span>
 </code></pre>
 </div>
 
@@ -350,10 +325,8 @@ console.log(array.length); // 3console.log(array); // [1,2,3]
 
 <p><code class="highlighter-rouge">String.replace()</code>函数允许你使用字符串或正则表达式来替换字符串，本身这个函数只替换第一次出现的字符串，不过你可以使用正则表达多中的<code class="highlighter-rouge">/g</code>来模拟<code class="highlighter-rouge">replaceAll()</code>函数功能：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-var string = "john john";
-console.log(string.replace(/hn/, "ana")); // "joana john"console.log(string.replace(/hn/g, "ana")); // "joana joana"
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">string</span> <span class="o">=</span> <span class="s2">"john john"</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">string</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/hn/</span><span class="p">,</span> <span class="s2">"ana"</span><span class="p">));</span> <span class="c1">// "joana john"console.log(string.replace(/hn/g, "ana")); // "joana joana"</span>
 </code></pre>
 </div>
 
@@ -361,19 +334,15 @@ console.log(string.replace(/hn/, "ana")); // "joana john"console.log(string.repl
 
 <p>如果你要合并两个数组，一般情况之下你都会使用<code class="highlighter-rouge">Array.concat()</code>函数：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-var array1 = [1,2,3];var array2 = [4,5,6];
-console.log(array1.concat(array2)); // [1,2,3,4,5,6];
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">array1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">];</span><span class="kd">var</span> <span class="nx">array2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">array1</span><span class="p">.</span><span class="nx">concat</span><span class="p">(</span><span class="nx">array2</span><span class="p">));</span> <span class="c1">// [1,2,3,4,5,6];</span>
 </code></pre>
 </div>
 
 <p>然后这个函数并不适合用来合并两个大型的数组，因为其将消耗大量的内存来存储新创建的数组。在这种情况之个，可以使用<code class="highlighter-rouge">Array.pus().apply(arr1,arr2)</code>来替代创建一个新数组。这种方法不是用来创建一个新的数组，其只是将第一个第二个数组合并在一起，同时减少内存的使用：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-var array1 = [1,2,3];var array2 = [4,5,6];
-console.log(array1.push.apply(array1, array2)); // [1,2,3,4,5,6];
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">array1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">];</span><span class="kd">var</span> <span class="nx">array2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">array1</span><span class="p">.</span><span class="nx">push</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nx">array1</span><span class="p">,</span> <span class="nx">array2</span><span class="p">));</span> <span class="c1">// [1,2,3,4,5,6];</span>
 </code></pre>
 </div>
 
@@ -381,9 +350,7 @@ console.log(array1.push.apply(array1, array2)); // [1,2,3,4,5,6];
 
 <p>如果你运行<code class="highlighter-rouge">document.querySelectorAll(“p”)</code>函数时，它可能返回<code class="highlighter-rouge">DOM</code>元素的数组，也就是<code class="highlighter-rouge">NodeList</code>对象。但这个对象不具有数组的函数功能，比如<code class="highlighter-rouge">sort()</code>、<code class="highlighter-rouge">reduce()</code>、<code class="highlighter-rouge">map()</code>、<code class="highlighter-rouge">filter()</code>等。为了让这些原生的数组函数功能也能用于其上面，需要将节点列表转换成数组。可以使用<code class="highlighter-rouge">[].slice.call(elements)</code>来实现：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-var elements = document.querySelectorAll("p"); // NodeListvar arrayElements = [].slice.call(elements); // Now the NodeList is an arrayvar arrayElements = Array.from(elements); // This is another way of converting NodeList to Array
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">elements</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s2">"p"</span><span class="p">);</span> <span class="c1">// NodeListvar arrayElements = [].slice.call(elements); // Now the NodeList is an arrayvar arrayElements = Array.from(elements); // This is another way of converting NodeList to Array</span>
 </code></pre>
 </div>
 
@@ -391,10 +358,8 @@ var elements = document.querySelectorAll("p"); // NodeListvar arrayElements = []
 
 <p>对于数组元素的洗牌，不需要使用任何外部的库，比如Lodash，只要这样做：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-var list = [1,2,3];
-console.log(list.sort(function() { Math.random() - 0.5 })); // [2,1,3]
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">list</span><span class="p">.</span><span class="nx">sort</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">-</span> <span class="mf">0.5</span> <span class="p">}));</span> <span class="c1">// [2,1,3]</span>
 </code></pre>
 </div>
 
@@ -509,9 +474,11 @@ console.log(list.sort(function() { Math.random() - 0.5 })); // [2,1,3]
                             
         				
                             
-                				<a href="/tags/#javascript" title="javascript" rel="2">
+                				<a href="/tags/#javascript" title="javascript" rel="3">
                                     javascript
                                 </a>
+                            
+        				
                             
         				
                             

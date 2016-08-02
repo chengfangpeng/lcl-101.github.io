@@ -21,8 +21,7 @@ tags:
 ### 保存两位小数
 
 
-```
-
+```js
 function changeTwoDecimal(x)
 {
     var f_x = parseFloat(x);
@@ -33,15 +32,13 @@ function changeTwoDecimal(x)
     f_x = Math.round(f_x *100)/100;
     return f_x;
 }
-
 ```
 
 
 ### placeholder兼容到ie8
 
 
-```
-
+```js
 if( !('placeholder' in document.createElement('input')) ){
 
         $('input[placeholder],textarea[placeholder]').each(function(){
@@ -66,8 +63,7 @@ if( !('placeholder' in document.createElement('input')) ){
                 }
             });
         });
-}
-    
+} 
 ```
 
 
@@ -76,18 +72,16 @@ if( !('placeholder' in document.createElement('input')) ){
 ### 单词换行
 
 
-```
-
+```css
 word-break:break-all;
 word-wrap:break-word;
-
 ```
 
 
 ### 垂直剧中
 
 
-```
+```css
 父元素中:
     
 display:-moz-box;
@@ -129,6 +123,5 @@ display: flex;
 -webkit-box-align: center;
 -ms-flex-align: center;
 -webkit-align-items: center;
-align-items: center;
-        
+align-items: center;   
 ```

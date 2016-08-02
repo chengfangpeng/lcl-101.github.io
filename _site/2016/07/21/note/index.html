@@ -208,50 +208,46 @@
 
 <h3 id="section">保存两位小数</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-function changeTwoDecimal(x)
-{
-    var f_x = parseFloat(x);
-    if (isNaN(f_x))
-    {
-        return false;
-    }
-    f_x = Math.round(f_x *100)/100;
-    return f_x;
-}
-
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">changeTwoDecimal</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">f_x</span> <span class="o">=</span> <span class="nb">parseFloat</span><span class="p">(</span><span class="nx">x</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nb">isNaN</span><span class="p">(</span><span class="nx">f_x</span><span class="p">))</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nx">f_x</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">round</span><span class="p">(</span><span class="nx">f_x</span> <span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nx">f_x</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre>
 </div>
 
 <h3 id="placeholderie8">placeholder兼容到ie8</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-if( !('placeholder' in document.createElement('input')) ){
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="k">if</span><span class="p">(</span> <span class="o">!</span><span class="p">(</span><span class="s1">'placeholder'</span> <span class="k">in</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">'input'</span><span class="p">))</span> <span class="p">){</span>
 
-        $('input[placeholder],textarea[placeholder]').each(function(){
-            var that = $(this),
-                text= that.attr('placeholder');
-            if(that.val()===""){
-                that.val(text).addClass('placeholder');
-            }
-            that.focus(function(){
-                    if(that.val()===text){
-                        that.val("").removeClass('placeholder');
-                    }
-                })
-                .blur(function(){
-                    if(that.val()===""){
-                        that.val(text).addClass('placeholder');
-                    }
-                })
-                .closest('form').submit(function(){
-                if(that.val() === text){
-                    that.val('');
-                }
-            });
-        });
-}
-    
+        <span class="nx">$</span><span class="p">(</span><span class="s1">'input[placeholder],textarea[placeholder]'</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+            <span class="kd">var</span> <span class="nx">that</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">),</span>
+                <span class="nx">text</span><span class="o">=</span> <span class="nx">that</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'placeholder'</span><span class="p">);</span>
+            <span class="k">if</span><span class="p">(</span><span class="nx">that</span><span class="p">.</span><span class="nx">val</span><span class="p">()</span><span class="o">===</span><span class="s2">""</span><span class="p">){</span>
+                <span class="nx">that</span><span class="p">.</span><span class="nx">val</span><span class="p">(</span><span class="nx">text</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'placeholder'</span><span class="p">);</span>
+            <span class="p">}</span>
+            <span class="nx">that</span><span class="p">.</span><span class="nx">focus</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+                    <span class="k">if</span><span class="p">(</span><span class="nx">that</span><span class="p">.</span><span class="nx">val</span><span class="p">()</span><span class="o">===</span><span class="nx">text</span><span class="p">){</span>
+                        <span class="nx">that</span><span class="p">.</span><span class="nx">val</span><span class="p">(</span><span class="s2">""</span><span class="p">).</span><span class="nx">removeClass</span><span class="p">(</span><span class="s1">'placeholder'</span><span class="p">);</span>
+                    <span class="p">}</span>
+                <span class="p">})</span>
+                <span class="p">.</span><span class="nx">blur</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+                    <span class="k">if</span><span class="p">(</span><span class="nx">that</span><span class="p">.</span><span class="nx">val</span><span class="p">()</span><span class="o">===</span><span class="s2">""</span><span class="p">){</span>
+                        <span class="nx">that</span><span class="p">.</span><span class="nx">val</span><span class="p">(</span><span class="nx">text</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'placeholder'</span><span class="p">);</span>
+                    <span class="p">}</span>
+                <span class="p">})</span>
+                <span class="p">.</span><span class="nx">closest</span><span class="p">(</span><span class="s1">'form'</span><span class="p">).</span><span class="nx">submit</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+                <span class="k">if</span><span class="p">(</span><span class="nx">that</span><span class="p">.</span><span class="nx">val</span><span class="p">()</span> <span class="o">===</span> <span class="nx">text</span><span class="p">){</span>
+                    <span class="nx">that</span><span class="p">.</span><span class="nx">val</span><span class="p">(</span><span class="s1">''</span><span class="p">);</span>
+                <span class="p">}</span>
+            <span class="p">});</span>
+        <span class="p">});</span>
+<span class="p">}</span> 
 </code></pre>
 </div>
 
@@ -259,58 +255,55 @@ if( !('placeholder' in document.createElement('input')) ){
 
 <h3 id="section-1">单词换行</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
-word-break:break-all;
-word-wrap:break-word;
-
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">word-break</span><span class="nd">:break-all</span><span class="o">;</span>
+<span class="nt">word-wrap</span><span class="nd">:break-word</span><span class="o">;</span>
 </code></pre>
 </div>
 
 <h3 id="section-2">垂直剧中</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>父元素中:
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="err">父元素中</span><span class="o">:</span>
     
-display:-moz-box;
-display:-webkit-box;
-display:box;
--moz-box-orient:vertical;
--webkit-box-orient:vertical;
-box-orient:vertical;
+<span class="nt">display</span><span class="nd">:-moz-box</span><span class="o">;</span>
+<span class="nt">display</span><span class="nd">:-webkit-box</span><span class="o">;</span>
+<span class="nt">display</span><span class="nd">:box</span><span class="o">;</span>
+<span class="nt">-moz-box-orient</span><span class="nd">:vertical</span><span class="o">;</span>
+<span class="nt">-webkit-box-orient</span><span class="nd">:vertical</span><span class="o">;</span>
+<span class="nt">box-orient</span><span class="nd">:vertical</span><span class="o">;</span>
 
-display: -webkit-flex;
-display: flex;
+<span class="nt">display</span><span class="o">:</span> <span class="nt">-webkit-flex</span><span class="o">;</span>
+<span class="nt">display</span><span class="o">:</span> <span class="nt">flex</span><span class="o">;</span>
 
-flex-direction: column;
--moz-flex-direction: column;
--webkit-flex-direction: column;
--ms-flex-direction: column;
--o-flex-direction: column;
+<span class="nt">flex-direction</span><span class="o">:</span> <span class="nt">column</span><span class="o">;</span>
+<span class="nt">-moz-flex-direction</span><span class="o">:</span> <span class="nt">column</span><span class="o">;</span>
+<span class="nt">-webkit-flex-direction</span><span class="o">:</span> <span class="nt">column</span><span class="o">;</span>
+<span class="nt">-ms-flex-direction</span><span class="o">:</span> <span class="nt">column</span><span class="o">;</span>
+<span class="nt">-o-flex-direction</span><span class="o">:</span> <span class="nt">column</span><span class="o">;</span>
 
-子元素中:
+<span class="err">子元素中</span><span class="o">:</span>
     
--webkit-flex: 10;
--moz-flex: 10;
--ms-flex: 10;
--o-flex: 10;
-flex: 10;
+<span class="nt">-webkit-flex</span><span class="o">:</span> <span class="nt">10</span><span class="o">;</span>
+<span class="nt">-moz-flex</span><span class="o">:</span> <span class="nt">10</span><span class="o">;</span>
+<span class="nt">-ms-flex</span><span class="o">:</span> <span class="nt">10</span><span class="o">;</span>
+<span class="nt">-o-flex</span><span class="o">:</span> <span class="nt">10</span><span class="o">;</span>
+<span class="nt">flex</span><span class="o">:</span> <span class="nt">10</span><span class="o">;</span>
     
--webkit-box-flex:10;
--moz-box-flex:10;
-box-flex:10;
-/* Center slide text vertically */
-display: -webkit-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
-/*-webkit-box-pack: center;*/
-/*-ms-flex-pack: center;*/
-/*-webkit-justify-content: center;*/
-/*justify-content: center;*/
--webkit-box-align: center;
--ms-flex-align: center;
--webkit-align-items: center;
-align-items: center;
-        
+<span class="nt">-webkit-box-flex</span><span class="nd">:10</span><span class="o">;</span>
+<span class="nt">-moz-box-flex</span><span class="nd">:10</span><span class="o">;</span>
+<span class="nt">box-flex</span><span class="nd">:10</span><span class="o">;</span>
+<span class="c">/* Center slide text vertically */</span>
+<span class="nt">display</span><span class="o">:</span> <span class="nt">-webkit-box</span><span class="o">;</span>
+<span class="nt">display</span><span class="o">:</span> <span class="nt">-ms-flexbox</span><span class="o">;</span>
+<span class="nt">display</span><span class="o">:</span> <span class="nt">-webkit-flex</span><span class="o">;</span>
+<span class="nt">display</span><span class="o">:</span> <span class="nt">flex</span><span class="o">;</span>
+<span class="c">/*-webkit-box-pack: center;*/</span>
+<span class="c">/*-ms-flex-pack: center;*/</span>
+<span class="c">/*-webkit-justify-content: center;*/</span>
+<span class="c">/*justify-content: center;*/</span>
+<span class="nt">-webkit-box-align</span><span class="o">:</span> <span class="nt">center</span><span class="o">;</span>
+<span class="nt">-ms-flex-align</span><span class="o">:</span> <span class="nt">center</span><span class="o">;</span>
+<span class="nt">-webkit-align-items</span><span class="o">:</span> <span class="nt">center</span><span class="o">;</span>
+<span class="nt">align-items</span><span class="o">:</span> <span class="nt">center</span><span class="o">;</span>   
 </code></pre>
 </div>
 
@@ -334,8 +327,7 @@ js部分
 
 保存两位小数
 
-
-fun... | Hux Blog，@Hux黄玄 的个人博客"
+func... | Hux Blog，@Hux黄玄 的个人博客"
                     data-url="https://lcl-101.github.io/2016/07/21/note/">
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
@@ -362,6 +354,13 @@ fun... | Hux Blog，@Hux黄玄 的个人博客"
                         </a>
                     </li>
                     
+                    
+                    <li class="next">
+                        <a href="/2016/08/02/Liquid/" data-toggle="tooltip" data-placement="top" title="liquid用法笔记">
+                        Next<br>
+                        <span>liquid用法笔记</span>
+                        </a>
+                    </li>
                     
                 </ul>
 
@@ -397,9 +396,11 @@ fun... | Hux Blog，@Hux黄玄 的个人博客"
                             
                         
                             
-                                <a href="/tags/#javascript" title="javascript" rel="2">
+                                <a href="/tags/#javascript" title="javascript" rel="3">
                                     javascript
                                 </a>
+                            
+                        
                             
                         
                             
